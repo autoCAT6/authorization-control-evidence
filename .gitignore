@@ -1,0 +1,9 @@
+.venv/
+node_modules/
+prepared-runtime/
+results/
+*.egg-info/
+build/
+dist/
+__pycache__/
+.pytest_cache/

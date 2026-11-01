@@ -1,0 +1,8 @@
+include README.md LICENSE NOTICE THIRD-PARTY.md dependency-inventory.json
+include prepare_runtime.py run_checks.py run_http_checks.py dioptra.toml dioptra-source-hashes.json
+recursive-include docs *.md
+recursive-include checks *.py
+recursive-include tests *.py
+recursive-include entrypoints *.yaml
+recursive-include plugins *.py
+recursive-include example-results *.json

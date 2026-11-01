@@ -1,0 +1,21 @@
+{
+  "name": "zcap130-synthetic-delegation-probe",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "description": "Local synthetic capability-as-argument evaluation for W3C CCG zcap130",
+  "dependencies": {
+    "@digitalbazaar/ed25519-signature-2020": "5.4.0",
+    "@digitalbazaar/ed25519-verification-key-2020": "4.2.0",
+    "@digitalbazaar/ezcap": "4.4.0",
+    "@digitalbazaar/ezcap-express": "7.3.0",
+    "@digitalbazaar/http-signature-zcap-invoke": "6.1.0",
+    "@digitalbazaar/zcap": "9.0.3",
+    "express": "5.3.0",
+    "jsonld-signatures": "11.6.0"
+  },
+  "scripts": {
+    "probe": "node probe.mjs observations.json",
+    "audit": "node audit-evidence.mjs observations.json evidence-audit.json"
+  }
+}

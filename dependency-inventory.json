@@ -1,0 +1,1663 @@
+{
+  "scope": "98 npm packages in the included lockfile; installed metadata and listed license texts inspected locally",
+  "dependenciesRedistributed": false,
+  "automatedLegalClearance": false,
+  "packages": [
+    {
+      "package": "@digitalbazaar/ed25519-multikey",
+      "version": "1.3.1",
+      "lockPath": "node_modules/@digitalbazaar/ed25519-multikey",
+      "resolved": "https://registry.npmjs.org/@digitalbazaar/ed25519-multikey/-/ed25519-multikey-1.3.1.tgz",
+      "integrity": "sha512-55qIbOaAyswVCFfZ70ap7SN2bDSwYmcVbUtGCrpVF/CjuJ8IPqf6z8fDPJzB+CE7Q896SaZlcDukz4LOwIRCPA==",
+      "declaredLicense": "BSD-3-Clause",
+      "licenseObservation": "BSD-3-Clause",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "cb19051e736abf0d63c49c27b085d052039edba572d263428c321d69edc4c4b0",
+      "includedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "sha256": "928d52e299e915ddca2b8932b5d9bb9e81762c39545c9f49e59e69bb1279d9a0"
+        }
+      ]
+    },
+    {
+      "package": "@digitalbazaar/ed25519-signature-2020",
+      "version": "5.4.0",
+      "lockPath": "node_modules/@digitalbazaar/ed25519-signature-2020",
+      "resolved": "https://registry.npmjs.org/@digitalbazaar/ed25519-signature-2020/-/ed25519-signature-2020-5.4.0.tgz",
+      "integrity": "sha512-dHjOv41wiKLoPaE1S9g4NCMKNnelYtBa5fCJKwrqo+cPlLuKcEhtD7w/uuc5non7bf/GX5sa5YfDI/sRUOS6iw==",
+      "declaredLicense": "BSD-3-Clause",
+      "licenseObservation": "BSD-3-Clause",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "4d871a8ed2fba77c62840691c3fb98ca3e9635a3fb933d781c67c840bba11823",
+      "includedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "sha256": "a03e2922a38b488938ab4ccd64b2d3e50453506fb3c1c66b6ed127954619f9d2"
+        }
+      ]
+    },
+    {
+      "package": "@digitalbazaar/ed25519-verification-key-2020",
+      "version": "4.2.0",
+      "lockPath": "node_modules/@digitalbazaar/ed25519-verification-key-2020",
+      "resolved": "https://registry.npmjs.org/@digitalbazaar/ed25519-verification-key-2020/-/ed25519-verification-key-2020-4.2.0.tgz",
+      "integrity": "sha512-urEVTYkt+uYD8GjdoS6gkm2sKBich1hqx42b6vvUOmNgF0agZ95JlUjiJXEx+VOwu7WSjJSnEBph2Qatkrk1CA==",
+      "declaredLicense": "BSD-3-Clause",
+      "licenseObservation": "BSD-3-Clause",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "7e568cb7130ba6abb0418bfc18107720852e73df6b79754c5787f71965728c7a",
+      "includedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "sha256": "fd5a010a48a0e2bf6980500e52fcedd3891511ddecbbb10a99aeb1e70476c87f"
+        }
+      ]
+    },
+    {
+      "package": "@digitalbazaar/ezcap",
+      "version": "4.4.0",
+      "lockPath": "node_modules/@digitalbazaar/ezcap",
+      "resolved": "https://registry.npmjs.org/@digitalbazaar/ezcap/-/ezcap-4.4.0.tgz",
+      "integrity": "sha512-Cok1Jn3Kes6UG9ENZrxiy6adiPczswizEYrhQw2TmJ9DZP6w1x3qCJQJgSp0/h2kZ4Utx6cWXWg0/Erq2ZR1AA==",
+      "declaredLicense": "BSD-3-Clause",
+      "licenseObservation": "BSD-3-Clause",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "3baf4e2a3b3ac2aff64094d8f3859d7caf0af4f1bb9ffad8252991729a035c9a",
+      "includedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "sha256": "98c867b1a37bc8330d052b0ba7d76b983e6cce59858f89bac71d3c17673069cc"
+        }
+      ]
+    },
+    {
+      "package": "@digitalbazaar/ezcap-express",
+      "version": "7.3.0",
+      "lockPath": "node_modules/@digitalbazaar/ezcap-express",
+      "resolved": "https://registry.npmjs.org/@digitalbazaar/ezcap-express/-/ezcap-express-7.3.0.tgz",
+      "integrity": "sha512-hb7gV3ZzRnRYYSzCgh+9YZaoi/PWe5x2GSaWPZa+63ccU1F3oIsBX34C4uyMPVISrH75iziKqBInTT0LGhG1ew==",
+      "declaredLicense": null,
+      "licenseObservation": "BSD-3-Clause",
+      "evidence": "included LICENSE text; package.json has no license field",
+      "metadataSha256": "3618174cef91976978c1260eb140a8cc2b90dd6069025582a89ade8eaa799551",
+      "includedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "sha256": "65b17777db98b1e4fcaf276be66846d6e23407a48a6afbbd7858e360f1234fad"
+        }
+      ]
+    },
+    {
+      "package": "@digitalbazaar/http-client",
+      "version": "4.4.0",
+      "lockPath": "node_modules/@digitalbazaar/http-client",
+      "resolved": "https://registry.npmjs.org/@digitalbazaar/http-client/-/http-client-4.4.0.tgz",
+      "integrity": "sha512-ODhCGmElUPmR3IR+KZmBNkRAFyjJ01rxvk2E+/qQ2h2EGPJH5k6bz3N24ympGc5+i4YCGk/ipIpmkwc0+iSmRg==",
+      "declaredLicense": "BSD-3-Clause",
+      "licenseObservation": "BSD-3-Clause",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "191c3e52ab37da11cda559b0753c3dcbd068bf2c0bbd37966773f5a1f246ff2e",
+      "includedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "sha256": "6620e60fde4c888f80b519997a4c482d8c8059772eece811ff082d65db265cf4"
+        }
+      ]
+    },
+    {
+      "package": "@digitalbazaar/http-digest-header",
+      "version": "2.3.0",
+      "lockPath": "node_modules/@digitalbazaar/http-digest-header",
+      "resolved": "https://registry.npmjs.org/@digitalbazaar/http-digest-header/-/http-digest-header-2.3.0.tgz",
+      "integrity": "sha512-yfVzh7VPs/ZFBZhi4djmu1E4zZ+UfY80tosj7EQFB5bTyriGcyNmP0KH/4FeFIR9kVAPS8I4jA6LERDBBnVj5w==",
+      "declaredLicense": "BSD-3-Clause",
+      "licenseObservation": "BSD-3-Clause",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "7f8203ef1e69609ce93883525b9a31f6b9922c4bbbd368ba8664a8124f16ff2a",
+      "includedLicenseFiles": [
+        {
+          "file": "LICENSE.md",
+          "sha256": "4e21b6dd150e16137dd0cbb24c878ed2ad63331187c00c80f86aa1a74ae236c2"
+        }
+      ]
+    },
+    {
+      "package": "@digitalbazaar/http-signature-header",
+      "version": "5.0.1",
+      "lockPath": "node_modules/@digitalbazaar/http-signature-header",
+      "resolved": "https://registry.npmjs.org/@digitalbazaar/http-signature-header/-/http-signature-header-5.0.1.tgz",
+      "integrity": "sha512-c7U6KYLEcAv1lh6QdBocOzuqmE5HKT2BAwn+0roiIPv527c+6qUh7rPHMrbVavWYTgk9kWBhCPba+Ql7gwG57g==",
+      "declaredLicense": "BSD-3-Clause",
+      "licenseObservation": "BSD-3-Clause",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "1519bfe5de23a66680319f642a17c49db5e68beda3264a0a38018440112b0158",
+      "includedLicenseFiles": [
+        {
+          "file": "LICENSE.md",
+          "sha256": "59c1451a91551385523a565a4f61c0e20becedeb50ff2196838df77b034d7dff"
+        }
+      ]
+    },
+    {
+      "package": "@digitalbazaar/http-signature-zcap-invoke",
+      "version": "6.1.0",
+      "lockPath": "node_modules/@digitalbazaar/http-signature-zcap-invoke",
+      "resolved": "https://registry.npmjs.org/@digitalbazaar/http-signature-zcap-invoke/-/http-signature-zcap-invoke-6.1.0.tgz",
+      "integrity": "sha512-dkHWfhPbRdJND8iFljpBPIgZq+fXqzqzlohgOPKyMmUWKRtB/parThoOFqpSH2bEzVFk/0L3PI0bSQcRQlbZhg==",
+      "declaredLicense": "BSD-3-Clause",
+      "licenseObservation": "BSD-3-Clause",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "559e87a49c9fc7bcd73eeee8d8f8279865d0ddbdedf8bf938243a38cee65cb2d",
+      "includedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "sha256": "9964cc65030e8a89a883624bb56f0cffff8c5964f10248f1181700d3f2924ffe"
+        }
+      ]
+    },
+    {
+      "package": "@digitalbazaar/http-signature-zcap-verify",
+      "version": "11.2.1",
+      "lockPath": "node_modules/@digitalbazaar/http-signature-zcap-verify",
+      "resolved": "https://registry.npmjs.org/@digitalbazaar/http-signature-zcap-verify/-/http-signature-zcap-verify-11.2.1.tgz",
+      "integrity": "sha512-+1cem5Oa25+t0m5SbGkuOr7GPmI8hBDwsocarGSm+484492fsOwPHS1TlqxGCMmNUMBZDHDTc68KQZsZL/84uQ==",
+      "declaredLicense": "BSD-3-Clause",
+      "licenseObservation": "BSD-3-Clause",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "992eca5d895d4f274b2285c403856bba8b406a886ad889169159a0036b7e7f58",
+      "includedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "sha256": "a866637e13c627b8fc8b992c0de53f1e51985f36230284b42839abb1351bb61b"
+        }
+      ]
+    },
+    {
+      "package": "@digitalbazaar/security-context",
+      "version": "1.0.1",
+      "lockPath": "node_modules/@digitalbazaar/security-context",
+      "resolved": "https://registry.npmjs.org/@digitalbazaar/security-context/-/security-context-1.0.1.tgz",
+      "integrity": "sha512-0WZa6tPiTZZF8leBtQgYAfXQePFQp2z5ivpCEN/iZguYYZ0TB9qRmWtan5XH6mNFuusHtMcyIzAcReyE6rZPhA==",
+      "declaredLicense": "BSD-3-Clause",
+      "licenseObservation": "BSD-3-Clause",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "fba272ed107974b0793ec62615690537e6a0a93b9724e2cd01a11ef94388615e",
+      "includedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "sha256": "a03e2922a38b488938ab4ccd64b2d3e50453506fb3c1c66b6ed127954619f9d2"
+        }
+      ]
+    },
+    {
+      "package": "@digitalbazaar/zcap",
+      "version": "9.0.3",
+      "lockPath": "node_modules/@digitalbazaar/zcap",
+      "resolved": "https://registry.npmjs.org/@digitalbazaar/zcap/-/zcap-9.0.3.tgz",
+      "integrity": "sha512-cCOrXxqPHF/MfxqFFGtiz86MQLv7JsLcOINtG19JMtB9PNMyboSKS8ahb7mIWo2anAZmmwY875zEmNcJYBzsqg==",
+      "declaredLicense": "BSD-3-Clause",
+      "licenseObservation": "BSD-3-Clause",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "906a77ae9dab1f189c09b8279cca9d4cc4e9f5588f1970df356ac7509f3b4d49",
+      "includedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "sha256": "bc5917a6b7eceeda4ccb4e2beeb1e9a77d6fe368ef337236e599ea6448aed544"
+        }
+      ]
+    },
+    {
+      "package": "@digitalbazaar/zcap-context",
+      "version": "2.0.1",
+      "lockPath": "node_modules/@digitalbazaar/zcap-context",
+      "resolved": "https://registry.npmjs.org/@digitalbazaar/zcap-context/-/zcap-context-2.0.1.tgz",
+      "integrity": "sha512-H+5O2QP5XJZuP8D4T2hZStxK3+ynu/yamvQKUTVNTiqAXeWshmEthSTMrX8aS5edgOtJjvdNUNuJ5mePW/DPcQ==",
+      "declaredLicense": "BSD-3-Clause",
+      "licenseObservation": "BSD-3-Clause",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "f0211479679fe3de7c9566a25814205664302a555d15798c21160fcaa967bb4b",
+      "includedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "sha256": "a03e2922a38b488938ab4ccd64b2d3e50453506fb3c1c66b6ed127954619f9d2"
+        }
+      ]
+    },
+    {
+      "package": "@noble/ed25519",
+      "version": "1.7.5",
+      "lockPath": "node_modules/@noble/ed25519",
+      "resolved": "https://registry.npmjs.org/@noble/ed25519/-/ed25519-1.7.5.tgz",
+      "integrity": "sha512-xuS0nwRMQBvSxDa7UxMb61xTiH3MxTgUfhyPUALVIe0FlOAz4sjELwyDRyUvqeEYfRSG9qNjFIycqLZppg4RSA==",
+      "declaredLicense": "MIT",
+      "licenseObservation": "MIT",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "164ae6e9e5a30f279a262baba0f0cb784c4c8563ba572b3fde9f503ee9104b3d",
+      "includedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "sha256": "394c2e6e5552e5dba202bee6390b9d6aa2754d657f5b9869e83b3d265a315501"
+        }
+      ]
+    },
+    {
+      "package": "accepts",
+      "version": "2.0.0",
+      "lockPath": "node_modules/accepts",
+      "resolved": "https://registry.npmjs.org/accepts/-/accepts-2.0.0.tgz",
+      "integrity": "sha512-5cvg6CtKwfgdmVqY1WIiXKc3Q1bkRqGLi+2W/6ao+6Y7gu/RCwRuAhGEzh5B4KlszSuTLgZYuqFqo5bImjNKng==",
+      "declaredLicense": "MIT",
+      "licenseObservation": "MIT",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "c579f3f992d488ac2f4ae751df8fd4169f034f4b6f6716f9a3ddfaf130993d63",
+      "includedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "sha256": "71f83c4c0621102a56d9853812777b85751bce7e9726f686f5b056c1f8a4b0e6"
+        }
+      ]
+    },
+    {
+      "package": "assert-plus",
+      "version": "1.0.0",
+      "lockPath": "node_modules/assert-plus",
+      "resolved": "https://registry.npmjs.org/assert-plus/-/assert-plus-1.0.0.tgz",
+      "integrity": "sha512-NfJ4UzBCcQGLDlQq7nHxH+tv3kyZ0hHQqF5BO6J7tNJeP5do1llPr8dZ8zHonfhAu0PHAdMkSo+8o0wxg9lZWw==",
+      "declaredLicense": "MIT",
+      "licenseObservation": "MIT",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "16ec731631aa9db6db31654603a08483268310f4368c7ad10b7a87dddaedcc2b",
+      "includedLicenseFiles": []
+    },
+    {
+      "package": "base58-universal",
+      "version": "2.0.0",
+      "lockPath": "node_modules/base58-universal",
+      "resolved": "https://registry.npmjs.org/base58-universal/-/base58-universal-2.0.0.tgz",
+      "integrity": "sha512-BgkgF8zVLOAygszG4W8NkLm7iXrw80VYAOcedrzANrIhS14+4W6zVqjyGTFUBM/FpqkHUt8aAYd4DbBBfn3zKg==",
+      "declaredLicense": "BSD-3-Clause",
+      "licenseObservation": "BSD-3-Clause",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "f2fa7aef90a81ec33f65c10d8cf563ba134600969765d4e7c24d8108713b3717",
+      "includedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "sha256": "0210dfa3a0a18e7ce54eb4aa7d3911519ad6ab28cd8d94ecc67c66a01c1cac44"
+        }
+      ]
+    },
+    {
+      "package": "base64url",
+      "version": "3.0.1",
+      "lockPath": "node_modules/base64url",
+      "resolved": "https://registry.npmjs.org/base64url/-/base64url-3.0.1.tgz",
+      "integrity": "sha512-ir1UPr3dkwexU7FdV8qBBbNDRUhMmIekYMFZfi+C/sLNnRESKPl23nB9b2pltqfOQNnGzsDdId90AEtG5tCx4A==",
+      "declaredLicense": "MIT",
+      "licenseObservation": "MIT",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "3d33d74bcac8395e3c594040fd59174706f262961430955daadcc4370c28d8eb",
+      "includedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "sha256": "0745065f98b9623997c37b41d4d929f59d8ba26933ae518aee51e85d0367461c"
+        }
+      ]
+    },
+    {
+      "package": "base64url-universal",
+      "version": "2.0.0",
+      "lockPath": "node_modules/base64url-universal",
+      "resolved": "https://registry.npmjs.org/base64url-universal/-/base64url-universal-2.0.0.tgz",
+      "integrity": "sha512-6Hpg7EBf3t148C3+fMzjf+CHnADVDafWzlJUXAqqqbm4MKNXbsoPdOkWeRTjNlkYG7TpyjIpRO1Gk0SnsFD1rw==",
+      "declaredLicense": "BSD-3-Clause",
+      "licenseObservation": "BSD-3-Clause",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "a2b7a03d5d049d34b4954585389b9ad55fb38addfc88495ab3245d774ecc4f2f",
+      "includedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "sha256": "d8a948325e57734edf6c4ebe767420bc8dd309557a58c2d6e0fef2219bc89fd7"
+        }
+      ]
+    },
+    {
+      "package": "body-parser",
+      "version": "2.4.0",
+      "lockPath": "node_modules/body-parser",
+      "resolved": "https://registry.npmjs.org/body-parser/-/body-parser-2.4.0.tgz",
+      "integrity": "sha512-Ifk1KcLrxaGt1occQagQNFNNOqRt1LFuehEnHHzB8Z6cRgIxRU1TBaiIsUiCdA+gy5PL7Y1IX31DNKkRmxtXjQ==",
+      "declaredLicense": "MIT",
+      "licenseObservation": "MIT",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "9410a56eb52cfe53ec48f013c872d4d336bb1cad66ea166bf3d97d2807bf542a",
+      "includedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "sha256": "23d466b1b134b415b66fa50c6526b4cf3e7b9258554da88d3abb371721e7ce68"
+        }
+      ]
+    },
+    {
+      "package": "bytes",
+      "version": "3.1.2",
+      "lockPath": "node_modules/bytes",
+      "resolved": "https://registry.npmjs.org/bytes/-/bytes-3.1.2.tgz",
+      "integrity": "sha512-/Nf7TyzTx6S3yRJObOAV7956r8cr2+Oj8AC5dt8wSP3BQAoeX58NoHyCU8P8zGkNXStjTSi6fzO6F0pBdcYbEg==",
+      "declaredLicense": "MIT",
+      "licenseObservation": "MIT",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "99b21c09ce812dc76a06cd87c4753247cb9615c6a8501c5a5a9d9caa22ea2d12",
+      "includedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "sha256": "e3b44af066615de2ea48d18d852d0762f18c0b2efcea714fa48a6f729d405b85"
+        }
+      ]
+    },
+    {
+      "package": "call-bind-apply-helpers",
+      "version": "1.0.2",
+      "lockPath": "node_modules/call-bind-apply-helpers",
+      "resolved": "https://registry.npmjs.org/call-bind-apply-helpers/-/call-bind-apply-helpers-1.0.2.tgz",
+      "integrity": "sha512-Sp1ablJ0ivDkSzjcaJdxEunN5/XvksFJ2sMBFfq6x0ryhQV/2b/KwFe21cMpmHtPOSij8K99/wSfoEuTObmuMQ==",
+      "declaredLicense": "MIT",
+      "licenseObservation": "MIT",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "59639b628c6846f674857c6a613fd47e2e4d2a24036cdf0f7a62ac634f4c8a5f",
+      "includedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "sha256": "5e325595b4ea8cfec3802f545b1def5d7b73e4a5b8e9ba63e32a320f67732292"
+        }
+      ]
+    },
+    {
+      "package": "call-bound",
+      "version": "1.0.4",
+      "lockPath": "node_modules/call-bound",
+      "resolved": "https://registry.npmjs.org/call-bound/-/call-bound-1.0.4.tgz",
+      "integrity": "sha512-+ys997U96po4Kx/ABpBCqhA9EuxJaQWDQg7295H4hBphv3IZg0boBKuwYpt4YXp6MZ5AmZQnU/tyMTlRpaSejg==",
+      "declaredLicense": "MIT",
+      "licenseObservation": "MIT",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "dcc8abb3c4ad3774234272149020cb36d7b1a3d377a419454d1e7adb368dd9c3",
+      "includedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "sha256": "5e325595b4ea8cfec3802f545b1def5d7b73e4a5b8e9ba63e32a320f67732292"
+        }
+      ]
+    },
+    {
+      "package": "canonicalize",
+      "version": "2.1.0",
+      "lockPath": "node_modules/canonicalize",
+      "resolved": "https://registry.npmjs.org/canonicalize/-/canonicalize-2.1.0.tgz",
+      "integrity": "sha512-F705O3xrsUtgt98j7leetNhTWPe+5S72rlL5O4jA1pKqBVQ/dT1O1D6PFxmSXvc0SUOinWS57DKx0I3CHrXJHQ==",
+      "declaredLicense": "Apache-2.0",
+      "licenseObservation": "Apache-2.0",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "1c0de6f2742e9c61f8983c38093cca1b14564a7a982ef96cb04a60328b5653a8",
+      "includedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+        }
+      ]
+    },
+    {
+      "package": "content-disposition",
+      "version": "2.0.1",
+      "lockPath": "node_modules/content-disposition",
+      "resolved": "https://registry.npmjs.org/content-disposition/-/content-disposition-2.0.1.tgz",
+      "integrity": "sha512-e+H0ZXHSWYrENhQzw1LPuP4oF5MzVKmDU6d3hxlvaPEYLLg62MxtQNPRx4SYSuYJSBUgnQIG4HIN2tEtNv7Dog==",
+      "declaredLicense": "MIT",
+      "licenseObservation": "MIT",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "03fb6b61a5526d9b4b37bc7924734c3ddd34bf2dc70ae4d2718e501492c0b510",
+      "includedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "sha256": "bd47ce7b88c7759630d1e2b9fcfa170a0f1fde522be09e13fb1581a79d090400"
+        }
+      ]
+    },
+    {
+      "package": "content-type",
+      "version": "2.1.0",
+      "lockPath": "node_modules/content-type",
+      "resolved": "https://registry.npmjs.org/content-type/-/content-type-2.1.0.tgz",
+      "integrity": "sha512-mj7UPXE0jaqaOsukNZRUEfEi2AcL7C/vwmwcHV0O97eO1E1pxBZuyjlZrx5seTaNBg1U6+o35wpa35Qfcc+7ag==",
+      "declaredLicense": "MIT",
+      "licenseObservation": "MIT",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "33102772db7c8375395bdcc11e7004c597b4cdbe457d8dd0ae2e56f5a2d28637",
+      "includedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "sha256": "257aed98914108e91a337912727b6a802eef218248507f74b76faffaff517a38"
+        }
+      ]
+    },
+    {
+      "package": "cookie",
+      "version": "0.7.2",
+      "lockPath": "node_modules/cookie",
+      "resolved": "https://registry.npmjs.org/cookie/-/cookie-0.7.2.tgz",
+      "integrity": "sha512-yki5XnKuf750l50uGTllt6kKILY4nQ1eNIQatoXEByZ5dWgnKqbnqmTrBE5B4N7lrMJKQ2ytWMiTO2o0v6Ew/w==",
+      "declaredLicense": "MIT",
+      "licenseObservation": "MIT",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "7fa781bd142e7f38b66bff64b4e3a8be9e53e340e7ddaf27caebd00322602208",
+      "includedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "sha256": "c02110eedc16c7114f1a9bdc026c65626ce1d9c7e27fd51a8e0feee8a48a6858"
+        }
+      ]
+    },
+    {
+      "package": "cookie-signature",
+      "version": "1.2.2",
+      "lockPath": "node_modules/cookie-signature",
+      "resolved": "https://registry.npmjs.org/cookie-signature/-/cookie-signature-1.2.2.tgz",
+      "integrity": "sha512-D76uU73ulSXrD1UXF4KE2TMxVVwhsnCgfAyTg9k8P6KGZjlXKrOLe4dJQKI3Bxi5wjesZoFXJWElNWBjPZMbhg==",
+      "declaredLicense": "MIT",
+      "licenseObservation": "MIT",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "c07dac3271d2ab772ac105f714c3f44bea5180a9a40bf95c2db8d6cb29bb28be",
+      "includedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "sha256": "0dd4e47333485760cf8c265db5a5e24ae8d7401064c6f2e19793ee81a5bef42f"
+        }
+      ]
+    },
+    {
+      "package": "crypto-ld",
+      "version": "7.0.0",
+      "lockPath": "node_modules/crypto-ld",
+      "resolved": "https://registry.npmjs.org/crypto-ld/-/crypto-ld-7.0.0.tgz",
+      "integrity": "sha512-RrXy6aB0TOhSiqsgavTQt1G8mKomKIaNLb2JZxj7A/Vi0EwmXguuBQoeiAvePfK6bDR3uQbqYnaLLs4irTWwgw==",
+      "declaredLicense": "BSD-3-Clause",
+      "licenseObservation": "BSD-3-Clause",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "1a0ff275645e638defa37034942372fc22cc689194290776c0e4fc742d6e18ff",
+      "includedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "sha256": "bbee48141d9dcbb27ade21c55424a564b5ef335bb1ceeaf1fa2461492210a37d"
+        }
+      ]
+    },
+    {
+      "package": "debug",
+      "version": "4.4.3",
+      "lockPath": "node_modules/debug",
+      "resolved": "https://registry.npmjs.org/debug/-/debug-4.4.3.tgz",
+      "integrity": "sha512-RGwwWnwQvkVfavKVt22FGLw+xYSdzARwm0ru6DhTVA3umU5hZc28V3kO4stgYryrTlLpuvgI9GiijltAjNbcqA==",
+      "declaredLicense": "MIT",
+      "licenseObservation": "MIT",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "ea8e33d63fe5f3a4c36609b6c3df8e2ef1f8b8ba2fc3a2e1e53cb27291f384af",
+      "includedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "sha256": "3a61c6c96caf5c1d9b623fb9b04c822b783dfcb78aa7e49c76a3f643e6ed7f95"
+        }
+      ]
+    },
+    {
+      "package": "depd",
+      "version": "2.0.0",
+      "lockPath": "node_modules/depd",
+      "resolved": "https://registry.npmjs.org/depd/-/depd-2.0.0.tgz",
+      "integrity": "sha512-g7nH6P6dyDioJogAAGprGpCtVImJhpPk/roCzdb3fIh61/s/nPsfR6onyMwkCAR/OlC3yBC0lESvUoQEAssIrw==",
+      "declaredLicense": "MIT",
+      "licenseObservation": "MIT",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "5a3659bcc2e47b25ebf9f23f38eb9452a58920bfe4b59410bfa6fe84639a3b99",
+      "includedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "sha256": "bd134b41da59e452fb5a1d366b660886f741c87c2bf9428e93764c419fbc40f5"
+        }
+      ]
+    },
+    {
+      "package": "dunder-proto",
+      "version": "1.0.1",
+      "lockPath": "node_modules/dunder-proto",
+      "resolved": "https://registry.npmjs.org/dunder-proto/-/dunder-proto-1.0.1.tgz",
+      "integrity": "sha512-KIN/nDJBQRcXw0MLVhZE9iQHmG68qAVIBg9CqmUYjmQIhgij9U5MFvrqkUL5FbtyyzZuOeOt0zdeRe4UY7ct+A==",
+      "declaredLicense": "MIT",
+      "licenseObservation": "MIT",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "24df71008e4225c858f389dd2728b76cf66b752256d42a38ed7930aacae7fe2b",
+      "includedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "sha256": "2b770a704c15de238c3f622b01b0044ddd60b49ee30608ea6991ebf19db7a7a1"
+        }
+      ]
+    },
+    {
+      "package": "ed25519-signature-2020-context",
+      "version": "1.1.0",
+      "lockPath": "node_modules/ed25519-signature-2020-context",
+      "resolved": "https://registry.npmjs.org/ed25519-signature-2020-context/-/ed25519-signature-2020-context-1.1.0.tgz",
+      "integrity": "sha512-dBGSmoUIK6h2vadDctrDnhhTO01PR2hJk0mRNEfrRDPCjaIwrfy4J+eziEQ9Q1m8By4f/CSRgKM1h53ydKfdNg==",
+      "declaredLicense": "BSD-3-Clause",
+      "licenseObservation": "BSD-3-Clause",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "090aa5cf54eb06c3035ae383067909d66377f0bd4bb8a4a457a24e830f67b76d",
+      "includedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "sha256": "a03e2922a38b488938ab4ccd64b2d3e50453506fb3c1c66b6ed127954619f9d2"
+        }
+      ]
+    },
+    {
+      "package": "ee-first",
+      "version": "1.1.1",
+      "lockPath": "node_modules/ee-first",
+      "resolved": "https://registry.npmjs.org/ee-first/-/ee-first-1.1.1.tgz",
+      "integrity": "sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==",
+      "declaredLicense": "MIT",
+      "licenseObservation": "MIT",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "a4eece6ff6b38bf7ac107323f381cc60500097a9cbdd473f5d5b45e68822cb89",
+      "includedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "sha256": "965ef284f7f4c176842ec2e87fa13e79feed777d56d7a21a5a3b38f1bb6dc288"
+        }
+      ]
+    },
+    {
+      "package": "encodeurl",
+      "version": "2.0.1",
+      "lockPath": "node_modules/encodeurl",
+      "resolved": "https://registry.npmjs.org/encodeurl/-/encodeurl-2.0.1.tgz",
+      "integrity": "sha512-Ev/hIyePLZtpL98x562lvPtenrUfGr0lfaf44HFZ+hDEwso7ccV9QAZrEVLg0hxNAzygaAFxy2dYaAKKM0G06A==",
+      "declaredLicense": "MIT",
+      "licenseObservation": "MIT",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "2053c6579831e6ea212cb9fcd5b0bfe78ff4a7b4b012d027ece0deb46b47689c",
+      "includedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "sha256": "7585ea7bba616ccbbe43cb54ecb67956688c3c5641bb84f3099a652a73193afe"
+        }
+      ]
+    },
+    {
+      "package": "es-define-property",
+      "version": "1.0.1",
+      "lockPath": "node_modules/es-define-property",
+      "resolved": "https://registry.npmjs.org/es-define-property/-/es-define-property-1.0.1.tgz",
+      "integrity": "sha512-e3nRfgfUZ4rNGL232gUgX06QNyyez04KdjFrF+LTRoOXmrOgFKDg4BCdsjW8EnT69eqdYGmRpJwiPVYNrCaW3g==",
+      "declaredLicense": "MIT",
+      "licenseObservation": "MIT",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "3a2cb30dae30a96705dcd9aa2d5fb190cf8200f27badccfa5a81a4374e5708b4",
+      "includedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "sha256": "5e325595b4ea8cfec3802f545b1def5d7b73e4a5b8e9ba63e32a320f67732292"
+        }
+      ]
+    },
+    {
+      "package": "es-errors",
+      "version": "1.3.0",
+      "lockPath": "node_modules/es-errors",
+      "resolved": "https://registry.npmjs.org/es-errors/-/es-errors-1.3.0.tgz",
+      "integrity": "sha512-Zf5H2Kxt2xjTvbJvP2ZWLEICxA6j+hAmMzIlypy4xcBg1vKVnx89Wy0GbS+kf5cwCVFFzdCFh2XSCFNULS6csw==",
+      "declaredLicense": "MIT",
+      "licenseObservation": "MIT",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "1a0a0bcccc76b915cb64073317312840cf6363e9144b96f406d0059774dd5278",
+      "includedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "sha256": "5e325595b4ea8cfec3802f545b1def5d7b73e4a5b8e9ba63e32a320f67732292"
+        }
+      ]
+    },
+    {
+      "package": "es-object-atoms",
+      "version": "1.1.2",
+      "lockPath": "node_modules/es-object-atoms",
+      "resolved": "https://registry.npmjs.org/es-object-atoms/-/es-object-atoms-1.1.2.tgz",
+      "integrity": "sha512-HWcBoN6NileqtSydK2FqHbS/LoDd2pqrnQHLyJzBj4kOp/ky2MWMN694xOfkK8/SnUsW2DH7EfyVlydKCsm1Zw==",
+      "declaredLicense": "MIT",
+      "licenseObservation": "MIT",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "e4b7882975d10c68457945c883e1060d0b058af5b1216215c872263f42e12fc9",
+      "includedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "sha256": "5e325595b4ea8cfec3802f545b1def5d7b73e4a5b8e9ba63e32a320f67732292"
+        }
+      ]
+    },
+    {
+      "package": "escape-html",
+      "version": "1.0.3",
+      "lockPath": "node_modules/escape-html",
+      "resolved": "https://registry.npmjs.org/escape-html/-/escape-html-1.0.3.tgz",
+      "integrity": "sha512-NiSupZ4OeuGwr68lGIeym/ksIZMJodUGOSCZ/FSnTxcrekbvqrgdUxlJOMpijaKZVjAJrWrGs/6Jy8OMuyj9ow==",
+      "declaredLicense": "MIT",
+      "licenseObservation": "MIT",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "bd320a3e9d23249f5f7d3ce72f2fa426e28a6b2704bd2b281d0c92806a1f5223",
+      "includedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "sha256": "255aa557a1f55224ce522f311629c0bf20854740a67955cefd798fbd1d3d1ded"
+        }
+      ]
+    },
+    {
+      "package": "etag",
+      "version": "1.8.1",
+      "lockPath": "node_modules/etag",
+      "resolved": "https://registry.npmjs.org/etag/-/etag-1.8.1.tgz",
+      "integrity": "sha512-aIL5Fx7mawVa300al2BnEE4iNvo1qETxLrPI/o05L7z6go7fCw1J6EQmbK4FmJ2AS7kgVF/KEZWufBfdClMcPg==",
+      "declaredLicense": "MIT",
+      "licenseObservation": "MIT",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "836b9a5dd1c6af638f4602e83e2568277f9ab1f457db0b95d949c2a4ddb0462a",
+      "includedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "sha256": "a7996721249a136fbcfc1c201bcb5f414f38a701d4a24f28abe65e16cfcce813"
+        }
+      ]
+    },
+    {
+      "package": "express",
+      "version": "5.3.0",
+      "lockPath": "node_modules/express",
+      "resolved": "https://registry.npmjs.org/express/-/express-5.3.0.tgz",
+      "integrity": "sha512-qCqy1xSoaugxOD4IVHb1ZWdkvCF2W3aE2okKouWj8VwJ+ztskSiXoBnCSJqfKT+cVPJhuJqe9YLbY425+Zh00g==",
+      "declaredLicense": "MIT",
+      "licenseObservation": "MIT",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "9645053f08f43135ec21f46ae434e49e10528c9062fde7776b150f38a2335afe",
+      "includedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "sha256": "95a5762890e5c1c9808921cef095661fc482c5e1f0bba31446ac85595df6237c"
+        }
+      ]
+    },
+    {
+      "package": "express-async-handler",
+      "version": "1.2.0",
+      "lockPath": "node_modules/express-async-handler",
+      "resolved": "https://registry.npmjs.org/express-async-handler/-/express-async-handler-1.2.0.tgz",
+      "integrity": "sha512-rCSVtPXRmQSW8rmik/AIb2P0op6l7r1fMW538yyvTMltCO4xQEWMmobfrIxN2V1/mVrgxB8Az3reYF6yUZw37w==",
+      "declaredLicense": "MIT",
+      "licenseObservation": "MIT",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "75acd5f4e47246c2eda53e3cba267648e5cf15283fe91c265732e285fd3b829d",
+      "includedLicenseFiles": []
+    },
+    {
+      "package": "finalhandler",
+      "version": "2.1.1",
+      "lockPath": "node_modules/finalhandler",
+      "resolved": "https://registry.npmjs.org/finalhandler/-/finalhandler-2.1.1.tgz",
+      "integrity": "sha512-S8KoZgRZN+a5rNwqTxlZZePjT/4cnm0ROV70LedRHZ0p8u9fRID0hJUZQpkKLzro8LfmC8sx23bY6tVNxv8pQA==",
+      "declaredLicense": "MIT",
+      "licenseObservation": "MIT",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "42f5503e57f067caf49dda0353d766f8eb4616429d3c43234ba673ee8acd1196",
+      "includedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "sha256": "47dcccf62bf40469d23849b0b1dc8df9fc91bce219b880c638d4dc4596e6b5cf"
+        }
+      ]
+    },
+    {
+      "package": "forwarded",
+      "version": "0.2.0",
+      "lockPath": "node_modules/forwarded",
+      "resolved": "https://registry.npmjs.org/forwarded/-/forwarded-0.2.0.tgz",
+      "integrity": "sha512-buRG0fpBtRHSTCOASe6hD258tEubFoRLb4ZNA6NxMVHNw2gOcwHo9wyablzMzOA5z9xA9L1KNjk/Nt6MT9aYow==",
+      "declaredLicense": "MIT",
+      "licenseObservation": "MIT",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "550a78f64b6a76bc353d6a10152af5750613d0d910f8478943176c1a6196158a",
+      "includedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "sha256": "bd47ce7b88c7759630d1e2b9fcfa170a0f1fde522be09e13fb1581a79d090400"
+        }
+      ]
+    },
+    {
+      "package": "fresh",
+      "version": "2.0.0",
+      "lockPath": "node_modules/fresh",
+      "resolved": "https://registry.npmjs.org/fresh/-/fresh-2.0.0.tgz",
+      "integrity": "sha512-Rx/WycZ60HOaqLKAi6cHRKKI7zxWbJ31MhntmtwMoaTeF7XFH9hhBp8vITaMidfljRQ6eYWCKkaTK+ykVJHP2A==",
+      "declaredLicense": "MIT",
+      "licenseObservation": "MIT",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "3895d6c15a9e65c1cca20c675db7637423ec2d087bb221ef79e09ed2e7d34ec0",
+      "includedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "sha256": "a0ec0dab16b3666f24950f86d257930ac2ad475557b4bfe245620e0817d8a45d"
+        }
+      ]
+    },
+    {
+      "package": "function-bind",
+      "version": "1.1.2",
+      "lockPath": "node_modules/function-bind",
+      "resolved": "https://registry.npmjs.org/function-bind/-/function-bind-1.1.2.tgz",
+      "integrity": "sha512-7XHNxH7qX9xG5mIwxkhumTox/MIRNcOgDrxWsMt2pAr23WHp6MrRlN7FBSFpCpr+oVO0F744iUgR82nJMfG2SA==",
+      "declaredLicense": "MIT",
+      "licenseObservation": "MIT",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "edb1c4faf4148e6e3d74ed8dbac1a1dc359a647ff4207aad4851396dc7a3559a",
+      "includedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "sha256": "773e131a7684726005a7e4688a80b4620033bc08499bc1404dd1a1eb3bca725e"
+        }
+      ]
+    },
+    {
+      "package": "get-intrinsic",
+      "version": "1.3.0",
+      "lockPath": "node_modules/get-intrinsic",
+      "resolved": "https://registry.npmjs.org/get-intrinsic/-/get-intrinsic-1.3.0.tgz",
+      "integrity": "sha512-9fSjSaos/fRIVIp+xSJlE6lfwhES7LNtKaCBIamHsjr2na1BiABJPo0mOjjz8GJDURarmCPGqaiVg5mfjb98CQ==",
+      "declaredLicense": "MIT",
+      "licenseObservation": "MIT",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "45b14763baacc59b0fd7b39e3ad983d5d2aaf7f5ed682f2fce9edb469826c999",
+      "includedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "sha256": "39c5ec504cf6bd5cd782a7c695828e09189df79f5d94840e4f08feb97b9fd416"
+        }
+      ]
+    },
+    {
+      "package": "get-proto",
+      "version": "1.0.1",
+      "lockPath": "node_modules/get-proto",
+      "resolved": "https://registry.npmjs.org/get-proto/-/get-proto-1.0.1.tgz",
+      "integrity": "sha512-sTSfBjoXBp89JvIKIefqw7U2CCebsc74kiY6awiGogKtoSGbgjYE/G/+l9sF3MWFPNc9IcoOC4ODfKHfxFmp0g==",
+      "declaredLicense": "MIT",
+      "licenseObservation": "MIT",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "73839e012ac7134a632c9d9fc6bdb700ac9ab5553cce39eb789ba2b65663e734",
+      "includedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "sha256": "be46ce1e3b0479af9ce82d22b465a6d7d2ff084fca0aaf3d54172da2b5eb5781"
+        }
+      ]
+    },
+    {
+      "package": "gopd",
+      "version": "1.2.0",
+      "lockPath": "node_modules/gopd",
+      "resolved": "https://registry.npmjs.org/gopd/-/gopd-1.2.0.tgz",
+      "integrity": "sha512-ZUKRh6/kUFoAiTAtTYPZJ3hw9wNxx+BIBOijnlG9PnrJsCcSjs1wyyD6vJpaYtgnzDrKYRSqf3OO6Rfa93xsRg==",
+      "declaredLicense": "MIT",
+      "licenseObservation": "MIT",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "33ace32dc861f6da9d1fd9d0a44c66e8c6ff3b13358d070683c1c2978ff5f19f",
+      "includedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "sha256": "d90bf0a089da4cf43d644ed240a0b3825dcdb705e64e38371d56995a4cc9e4c5"
+        }
+      ]
+    },
+    {
+      "package": "has-symbols",
+      "version": "1.1.0",
+      "lockPath": "node_modules/has-symbols",
+      "resolved": "https://registry.npmjs.org/has-symbols/-/has-symbols-1.1.0.tgz",
+      "integrity": "sha512-1cDNdwJ2Jaohmb3sg4OmKaMBwuC48sYni5HUw2DvsC8LjGTLK9h+eb1X6RyuOHe4hT0ULCW68iomhjUoKUqlPQ==",
+      "declaredLicense": "MIT",
+      "licenseObservation": "MIT",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "5190268c0e3308d7446d1f7c036238f329f786938453e6017cb90980b3612e7a",
+      "includedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "sha256": "206c1adcf206dc0031b11232f5b054ec5f1662407ab1ca415247921cab2068ab"
+        }
+      ]
+    },
+    {
+      "package": "hasown",
+      "version": "2.0.4",
+      "lockPath": "node_modules/hasown",
+      "resolved": "https://registry.npmjs.org/hasown/-/hasown-2.0.4.tgz",
+      "integrity": "sha512-T2UbfbBEF32wiepXIsMlTW9+dDYC6wMh/t/vYA4tuOMKqWz/n3vr1NFSxQiyP+zk2mXsoMA/i/7qV6LKut1t1A==",
+      "declaredLicense": "MIT",
+      "licenseObservation": "MIT",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "40b750c55a8bacf2c5ac316f5299dd44d48acc101c189a00cd59d39376b5eb89",
+      "includedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "sha256": "bf9b0d665be2a689851eea667ca9f42066ea1d903b38349c51e6a44b2577680a"
+        }
+      ]
+    },
+    {
+      "package": "http-errors",
+      "version": "2.0.1",
+      "lockPath": "node_modules/http-errors",
+      "resolved": "https://registry.npmjs.org/http-errors/-/http-errors-2.0.1.tgz",
+      "integrity": "sha512-4FbRdAX+bSdmo4AUFuS0WNiPz8NgFt+r8ThgNWmlrjQjt1Q7ZR9+zTlce2859x4KSXrwIsaeTqDoKQmtP8pLmQ==",
+      "declaredLicense": "MIT",
+      "licenseObservation": "MIT",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "d540721372bf8bf77b5fad31f6567a916e24d0aeeb78c81ba92b69feea9f1eef",
+      "includedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "sha256": "dcb94ff9b1e037a847bc20589dc81a1066d041fd4c16deb18b0fa968c66cf395"
+        }
+      ]
+    },
+    {
+      "package": "iconv-lite",
+      "version": "0.7.3",
+      "lockPath": "node_modules/iconv-lite",
+      "resolved": "https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.7.3.tgz",
+      "integrity": "sha512-IKXpvIzjnC9XTAUbVBcMfGS0EPaIXtW6v+zr+RRp+hqULEpo0owZax6wyRwPOJbWbzjYspQwusTsfVr0ifh4uQ==",
+      "declaredLicense": "MIT",
+      "licenseObservation": "MIT",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "f24ad03476d51470a5b069e65b03ef6383d615897ffe2239edf22584ea0e3d03",
+      "includedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "sha256": "ac779f7314c74f232ef847ea86e714abe25cf6eeb5cc97b69451b74e2af6492d"
+        }
+      ]
+    },
+    {
+      "package": "inherits",
+      "version": "2.0.4",
+      "lockPath": "node_modules/inherits",
+      "resolved": "https://registry.npmjs.org/inherits/-/inherits-2.0.4.tgz",
+      "integrity": "sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==",
+      "declaredLicense": "ISC",
+      "licenseObservation": "ISC",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "be645800bc94fd8de29c8ae91690549b316cc437100108aeea7b2f347693cc80",
+      "includedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "sha256": "5ffe28e7ade7d8f10d85d5337a73fd793dac5c462fb9a28fbf8c5046c7fbca3b"
+        }
+      ]
+    },
+    {
+      "package": "ipaddr.js",
+      "version": "1.9.1",
+      "lockPath": "node_modules/ipaddr.js",
+      "resolved": "https://registry.npmjs.org/ipaddr.js/-/ipaddr.js-1.9.1.tgz",
+      "integrity": "sha512-0KI/607xoxSToH7GjN1FfSbLoU0+btTicjsQSWQlh/hZykN8KpmMf7uYwPW3R+akZ6R/w18ZlXSHBYXiYUPO3g==",
+      "declaredLicense": "MIT",
+      "licenseObservation": "MIT",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "fc1071893728a0e78fa40ce0dbe04c5a1021179fdcb5b229f274e3556d6a87cd",
+      "includedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "sha256": "62568a2d1337b77171ecca9db10579163446de1ba6151678e81f06cdc199971b"
+        }
+      ]
+    },
+    {
+      "package": "is-promise",
+      "version": "4.0.0",
+      "lockPath": "node_modules/is-promise",
+      "resolved": "https://registry.npmjs.org/is-promise/-/is-promise-4.0.0.tgz",
+      "integrity": "sha512-hvpoI6korhJMnej285dSg6nu1+e6uxs7zG3BYAm5byqDsgJNWwxzM6z6iZiAgQR4TJ30JmBTOwqZUw3WlyH3AQ==",
+      "declaredLicense": "MIT",
+      "licenseObservation": "MIT",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "ae7a1bff928cb99f0b828f8a8236f623828f5f48ce930268ac5726554e083b50",
+      "includedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "sha256": "44191656d296391e0ec97e32f5385f0d02b6f2992694082d22ea04ba0f66f9e4"
+        }
+      ]
+    },
+    {
+      "package": "jsonld",
+      "version": "9.0.0",
+      "lockPath": "node_modules/jsonld",
+      "resolved": "https://registry.npmjs.org/jsonld/-/jsonld-9.0.0.tgz",
+      "integrity": "sha512-pjMIdkXfC1T2wrX9B9i2uXhGdyCmgec3qgMht+TDj+S0qX3bjWMQUfL7NeqEhuRTi8G5ESzmL9uGlST7nzSEWg==",
+      "declaredLicense": "BSD-3-Clause",
+      "licenseObservation": "BSD-3-Clause",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "055ed69d0e7ac0f5f813667c106cb90191dbeef0a91454b3c42b2b9cf3819d21",
+      "includedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "sha256": "0707101bd4a2fc564788b1ba03c53615e35388dad33879663db263e724a6bd4a"
+        }
+      ]
+    },
+    {
+      "package": "jsonld-signatures",
+      "version": "11.6.0",
+      "lockPath": "node_modules/jsonld-signatures",
+      "resolved": "https://registry.npmjs.org/jsonld-signatures/-/jsonld-signatures-11.6.0.tgz",
+      "integrity": "sha512-hzYNZXnfy4cUFf9aiFBtduUz+cknbfBLWtTKvoqVyP2ECPwqfsfkHWFlhccWfAKV/LJkPLyKZRwC1B4T5LO4ZQ==",
+      "declaredLicense": "BSD-3-Clause",
+      "licenseObservation": "BSD-3-Clause",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "513bd26537607d487da798348f3cbebc3c033a1d3e73102e93a76cb0f090317d",
+      "includedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "sha256": "22381d11338e8d84f88094f48385b77a458a3a5216074ca82d6b20a90289ffdf"
+        }
+      ]
+    },
+    {
+      "package": "ky",
+      "version": "1.14.3",
+      "lockPath": "node_modules/ky",
+      "resolved": "https://registry.npmjs.org/ky/-/ky-1.14.3.tgz",
+      "integrity": "sha512-9zy9lkjac+TR1c2tG+mkNSVlyOpInnWdSMiue4F+kq8TwJSgv6o8jhLRg8Ho6SnZ9wOYUq/yozts9qQCfk7bIw==",
+      "declaredLicense": "MIT",
+      "licenseObservation": "MIT",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "f9496bff9af3e965771b21897e1bbfda0a910f292fe16758113c8a6388d57039",
+      "includedLicenseFiles": [
+        {
+          "file": "license",
+          "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3"
+        }
+      ]
+    },
+    {
+      "package": "lru-cache",
+      "version": "6.0.0",
+      "lockPath": "node_modules/lru-cache",
+      "resolved": "https://registry.npmjs.org/lru-cache/-/lru-cache-6.0.0.tgz",
+      "integrity": "sha512-Jo6dJ04CmSjuznwJSS3pUeWmd/H0ffTlkXXgwZi+eq1UCmqQwCh+eLsYOYCwY991i2Fah4h1BEMCx4qThGbsiA==",
+      "declaredLicense": "ISC",
+      "licenseObservation": "ISC",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "b06071b99bebe6cc7f7716f65ed4f36ff54aaf78d74ea0bec72f9029a8e2c215",
+      "includedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "sha256": "4ec3d4c66cd87f5c8d8ad911b10f99bf27cb00cdfcff82621956e379186b016b"
+        }
+      ]
+    },
+    {
+      "package": "math-intrinsics",
+      "version": "1.1.0",
+      "lockPath": "node_modules/math-intrinsics",
+      "resolved": "https://registry.npmjs.org/math-intrinsics/-/math-intrinsics-1.1.0.tgz",
+      "integrity": "sha512-/IXtbwEk5HTPyEwyKX6hGkYXxM9nbj64B+ilVJnC/R6B0pH5G4V3b0pVbL7DBj4tkhBAppbQUlf6F6Xl9LHu1g==",
+      "declaredLicense": "MIT",
+      "licenseObservation": "MIT",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "39d74aa5a354153130706286dd60a2d8409ce0c8f66546eff2edcac0afff17e1",
+      "includedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "sha256": "2b770a704c15de238c3f622b01b0044ddd60b49ee30608ea6991ebf19db7a7a1"
+        }
+      ]
+    },
+    {
+      "package": "media-typer",
+      "version": "1.1.1",
+      "lockPath": "node_modules/media-typer",
+      "resolved": "https://registry.npmjs.org/media-typer/-/media-typer-1.1.1.tgz",
+      "integrity": "sha512-yz3xRaG20c6/BOzvYoDaGtPmGscs7YivItZEEqe6GbwNfHuxu9YNmvnEkMzKldAGY4/80pRcQRZSEnhquk9XuQ==",
+      "declaredLicense": "MIT",
+      "licenseObservation": "MIT",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "532b2af00ae4de1bb2853f233a1ee6d3c19703d18d2c4e173cdc59f7a01e1bba",
+      "includedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "sha256": "bd47ce7b88c7759630d1e2b9fcfa170a0f1fde522be09e13fb1581a79d090400"
+        }
+      ]
+    },
+    {
+      "package": "merge-descriptors",
+      "version": "2.0.0",
+      "lockPath": "node_modules/merge-descriptors",
+      "resolved": "https://registry.npmjs.org/merge-descriptors/-/merge-descriptors-2.0.0.tgz",
+      "integrity": "sha512-Snk314V5ayFLhp3fkUREub6WtjBfPdCPY1Ln8/8munuLuiYhsABgBVWsozAG+MWMbVEvcdcpbi9R7ww22l9Q3g==",
+      "declaredLicense": "MIT",
+      "licenseObservation": "MIT",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "36d6d2cd304c06d5b690625af7ecc07995d5e220eba014ee3818af8c51421fed",
+      "includedLicenseFiles": [
+        {
+          "file": "license",
+          "sha256": "70b126abc64d7ea06e1243349073935caa16fa47a41a571773ccf0b350b1d574"
+        }
+      ]
+    },
+    {
+      "package": "mime-db",
+      "version": "1.54.0",
+      "lockPath": "node_modules/mime-db",
+      "resolved": "https://registry.npmjs.org/mime-db/-/mime-db-1.54.0.tgz",
+      "integrity": "sha512-aU5EJuIN2WDemCcAp2vFBfp/m4EAhWJnUNSSw0ixs7/kXbd6Pg64EmwJkNdFhB8aWt1sH2CTXrLxo/iAGV3oPQ==",
+      "declaredLicense": "MIT",
+      "licenseObservation": "MIT",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "33bdbb99915697ac01df12490b9d479a55529123842e67975e6d76d0010aa142",
+      "includedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "sha256": "cc1dfd4dafa27271e8212cd3b274eeb3f262e40a6fdab36ddc3f9696f706f58b"
+        }
+      ]
+    },
+    {
+      "package": "mime-types",
+      "version": "3.0.2",
+      "lockPath": "node_modules/mime-types",
+      "resolved": "https://registry.npmjs.org/mime-types/-/mime-types-3.0.2.tgz",
+      "integrity": "sha512-Lbgzdk0h4juoQ9fCKXW4by0UJqj+nOOrI9MJ1sSj4nI8aI2eo1qmvQEie4VD1glsS250n15LsWsYtCugiStS5A==",
+      "declaredLicense": "MIT",
+      "licenseObservation": "MIT",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "644fc05ded7d8a20c069a07c7c61373593d4859c91b1386f544cbf247e39820c",
+      "includedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "sha256": "71f83c4c0621102a56d9853812777b85751bce7e9726f686f5b056c1f8a4b0e6"
+        }
+      ]
+    },
+    {
+      "package": "ms",
+      "version": "2.1.3",
+      "lockPath": "node_modules/ms",
+      "resolved": "https://registry.npmjs.org/ms/-/ms-2.1.3.tgz",
+      "integrity": "sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==",
+      "declaredLicense": "MIT",
+      "licenseObservation": "MIT",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "1a6b4d9739790c0b94ab96c8cc0507e281c164c311ff4fbf5e57fb8d26290b40",
+      "includedLicenseFiles": [
+        {
+          "file": "license.md",
+          "sha256": "1662fae9b5314d11cf51284e2dcd1f006a354f7343f08712a730fcff9a359801"
+        }
+      ]
+    },
+    {
+      "package": "negotiator",
+      "version": "1.1.0",
+      "lockPath": "node_modules/negotiator",
+      "resolved": "https://registry.npmjs.org/negotiator/-/negotiator-1.1.0.tgz",
+      "integrity": "sha512-NMPBRMJgiQHjbd8phG3Vebdx4kZ1H121rbl5IkMqeOsahptB9BKo/d7oJ3zTXqTgagn2bWlNSXkh0QUGM31RYg==",
+      "declaredLicense": "MIT",
+      "licenseObservation": "MIT",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "2bc164db19aca1e7af967b7211f7d728940f48ff22d56aa75be587f3bb13ee56",
+      "includedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "sha256": "553d4d20029a24e315b428a1a54a9e109eaa340f2e958a4f50a92362c2c4070b"
+        }
+      ]
+    },
+    {
+      "package": "object-inspect",
+      "version": "1.13.4",
+      "lockPath": "node_modules/object-inspect",
+      "resolved": "https://registry.npmjs.org/object-inspect/-/object-inspect-1.13.4.tgz",
+      "integrity": "sha512-W67iLl4J2EXEGTbfeHCffrjDfitvLANg0UlX3wFUUSTx92KXRFegMHUVgSqE+wvhAbi4WqjGg9czysTV2Epbew==",
+      "declaredLicense": "MIT",
+      "licenseObservation": "MIT",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "21c5c63f653705f44a60f5fe93752b231caf6ff07b01805740bd89b71b2d6d8a",
+      "includedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "sha256": "bd40cc437e28a3ad7bef2ad34e6b72e757b182e67bda1acadbab4ef0476f8232"
+        }
+      ]
+    },
+    {
+      "package": "on-finished",
+      "version": "2.4.2",
+      "lockPath": "node_modules/on-finished",
+      "resolved": "https://registry.npmjs.org/on-finished/-/on-finished-2.4.2.tgz",
+      "integrity": "sha512-ATWUv387i+nLD49EiDoOft5scf32Vsdz3ktrQJG9bi7jRFmaXTssvyvj1EmeKVVgvesbqUtvQQvaS2TpTukAZQ==",
+      "declaredLicense": "MIT",
+      "licenseObservation": "MIT",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "72a8f458b98a063fe2205933df3c2aef16fbe4d08a79010a23eeca1e9428b876",
+      "includedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "sha256": "8089bcc08845ec143e5761f4a101a65b8c792a0dedbfeeb90a15560c0b77f768"
+        }
+      ]
+    },
+    {
+      "package": "once",
+      "version": "1.4.0",
+      "lockPath": "node_modules/once",
+      "resolved": "https://registry.npmjs.org/once/-/once-1.4.0.tgz",
+      "integrity": "sha512-lNaJgI+2Q5URQBkccEKHTQOPaXdUxnZZElQTZY0MFUAuaEqe1E+Nyvgdz/aIyNi6Z9MzO5dv1H8n58/GELp3+w==",
+      "declaredLicense": "ISC",
+      "licenseObservation": "ISC",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "33840d74c14c94bfb75c76374765b635531b1eacb88d7f1f2f380c94d0ea1328",
+      "includedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "sha256": "4ec3d4c66cd87f5c8d8ad911b10f99bf27cb00cdfcff82621956e379186b016b"
+        }
+      ]
+    },
+    {
+      "package": "pako",
+      "version": "2.2.0",
+      "lockPath": "node_modules/pako",
+      "resolved": "https://registry.npmjs.org/pako/-/pako-2.2.0.tgz",
+      "integrity": "sha512-zJq6RP/5q+TO2OpFV3FHzlPnFjmkb7Nc99a5SNjJE+uu/PkpChs+NIZSSzbBoD+6kjiISXjfYdwj1ZRQ81dz/w==",
+      "declaredLicense": "(MIT AND Zlib)",
+      "licenseObservation": "(MIT AND Zlib)",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "d9c254197b7c7a1b00eaffb0196f10c3f48061e61d8b6c41dccd3d5d0ab3f1ea",
+      "includedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "sha256": "a04665b3b2de56c66730c1f720f528175739e4104f79073614aa611da1e85539"
+        }
+      ]
+    },
+    {
+      "package": "parseurl",
+      "version": "1.3.3",
+      "lockPath": "node_modules/parseurl",
+      "resolved": "https://registry.npmjs.org/parseurl/-/parseurl-1.3.3.tgz",
+      "integrity": "sha512-CiyeOxFT/JZyN5m0z9PfXw4SCBJ6Sygz1Dpl0wqjlhDEGGBP1GnsUVEL0p63hoG1fcj3fHynXi9NYO4nWOL+qQ==",
+      "declaredLicense": "MIT",
+      "licenseObservation": "MIT",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "98c7b953c844cac7c0be2d5abc6559c6fd3a6075fd159b04c0f1bf46145bfed2",
+      "includedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "sha256": "11d017c3b9f1ee3f44caf7203035f0461d5b57e0db8ce1bc03a9af34fa7d3f6b"
+        }
+      ]
+    },
+    {
+      "package": "path-to-regexp",
+      "version": "8.4.2",
+      "lockPath": "node_modules/path-to-regexp",
+      "resolved": "https://registry.npmjs.org/path-to-regexp/-/path-to-regexp-8.4.2.tgz",
+      "integrity": "sha512-qRcuIdP69NPm4qbACK+aDogI5CBDMi1jKe0ry5rSQJz8JVLsC7jV8XpiJjGRLLol3N+R5ihGYcrPLTno6pAdBA==",
+      "declaredLicense": "MIT",
+      "licenseObservation": "MIT",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "3c37dce1e0587231f7c9f63e137dd0ed4d6f25552c89b5b5939c6a3d36113634",
+      "includedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "sha256": "4eeb3271453a891df609e5a9f4ee79a68307f730c13417a3bfeffa604ac8cf25"
+        }
+      ]
+    },
+    {
+      "package": "proxy-addr",
+      "version": "2.0.8",
+      "lockPath": "node_modules/proxy-addr",
+      "resolved": "https://registry.npmjs.org/proxy-addr/-/proxy-addr-2.0.8.tgz",
+      "integrity": "sha512-5nnx0yGyVUcY6t9RnWcARWtwT9F1D8O9rt08htPvnd49W1IgZtmLkhu9WfMzQj1cFxjHIO6connUNVW5k7AVyQ==",
+      "declaredLicense": "MIT",
+      "licenseObservation": "MIT",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "b2e305ca817ae4e8b088e07f38c5df1d7ad77aa3473809e4c37a9a1c83600225",
+      "includedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "sha256": "a7996721249a136fbcfc1c201bcb5f414f38a701d4a24f28abe65e16cfcce813"
+        }
+      ]
+    },
+    {
+      "package": "qs",
+      "version": "6.17.1",
+      "lockPath": "node_modules/qs",
+      "resolved": "https://registry.npmjs.org/qs/-/qs-6.17.1.tgz",
+      "integrity": "sha512-jd3COkaKVgGUW+ZHyEHCG9bH7RoaaiWuMgzsIBjUMVjLAaWGWpoUAVwljVvBHxRu/2qEHnadLGZrkutYUBPQJA==",
+      "declaredLicense": "BSD-3-Clause",
+      "licenseObservation": "BSD-3-Clause",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "863f2d7bdf692921c2d743280760cb486db0fad3984f41ea195486f152ffaa84",
+      "includedLicenseFiles": [
+        {
+          "file": "LICENSE.md",
+          "sha256": "e7dc37bf662d7f786efcb46c545615e70c1daf458a38385521c63cf6607cdfe1"
+        }
+      ]
+    },
+    {
+      "package": "range-parser",
+      "version": "1.3.0",
+      "lockPath": "node_modules/range-parser",
+      "resolved": "https://registry.npmjs.org/range-parser/-/range-parser-1.3.0.tgz",
+      "integrity": "sha512-hek2mFQpPuI4E1BBKrSto+BU3e3x4xuarsbiwr3+lf7p44juvFMV0XFWQAP3xUyqXA4RrXLIoaSUGbSt056ZMw==",
+      "declaredLicense": "MIT",
+      "licenseObservation": "MIT",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "3461c9c15204b32f459c97920bb678e42341e9e9675e4b748907ce4de740f26d",
+      "includedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "sha256": "f655e6291356ec0de7a8f0e69f294961a2cea86678ec94588be1e6a492e278ab"
+        }
+      ]
+    },
+    {
+      "package": "raw-body",
+      "version": "3.0.2",
+      "lockPath": "node_modules/raw-body",
+      "resolved": "https://registry.npmjs.org/raw-body/-/raw-body-3.0.2.tgz",
+      "integrity": "sha512-K5zQjDllxWkf7Z5xJdV0/B0WTNqx6vxG70zJE4N0kBs4LovmEYWJzQGxC9bS9RAKu3bgM40lrd5zoLJ12MQ5BA==",
+      "declaredLicense": "MIT",
+      "licenseObservation": "MIT",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "3072f77ab429d8b89e78c85e0cdefb6e3ef554a9fb19443d006a892a74361e78",
+      "includedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "sha256": "37876d7de8bdf5e5b9b58a697ebc34044624e493e6f49eff5c938e5226dcac6b"
+        }
+      ]
+    },
+    {
+      "package": "rdf-canonize",
+      "version": "5.0.0",
+      "lockPath": "node_modules/rdf-canonize",
+      "resolved": "https://registry.npmjs.org/rdf-canonize/-/rdf-canonize-5.0.0.tgz",
+      "integrity": "sha512-g8OUrgMXAR9ys/ZuJVfBr05sPPoMA7nHIVs8VEvg9QwM5W4GR2qSFEEHjsyHF1eWlBaf8Ev40WNjQFQ+nJTO3w==",
+      "declaredLicense": "BSD-3-Clause",
+      "licenseObservation": "BSD-3-Clause",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "4fea40db683ef464ac7e36227d7c80e7076b6dc92e262c9d342058e4b1cf36cf",
+      "includedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "sha256": "ce809f30d8416b87c46a5affa6e5f8cdad868df31045986ea510bed856b397aa"
+        }
+      ]
+    },
+    {
+      "package": "router",
+      "version": "2.2.0",
+      "lockPath": "node_modules/router",
+      "resolved": "https://registry.npmjs.org/router/-/router-2.2.0.tgz",
+      "integrity": "sha512-nLTrUKm2UyiL7rlhapu/Zl45FwNgkZGaCpZbIHajDYgwlJCOzLSk+cIPAnsEqV955GjILJnKbdQC1nVPz+gAYQ==",
+      "declaredLicense": "MIT",
+      "licenseObservation": "MIT",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "b77062595f89476fab6acbcde5fa8dfac3be7d7b9b0b0b69d48c84ebc13c9a06",
+      "includedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "sha256": "d0bca4e517157b7a6120c085f5fe43a35b90c095e3bbeb9e67f220c608506a16"
+        }
+      ]
+    },
+    {
+      "package": "safer-buffer",
+      "version": "2.1.2",
+      "lockPath": "node_modules/safer-buffer",
+      "resolved": "https://registry.npmjs.org/safer-buffer/-/safer-buffer-2.1.2.tgz",
+      "integrity": "sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==",
+      "declaredLicense": "MIT",
+      "licenseObservation": "MIT",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "4247a3a63c45a6a7ced1557fe4dd9d2a163af4915d594b95e5867b69a53edb52",
+      "includedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "sha256": "4bc935e71be198c67ddf3c2b5fddb195f6edc182bfc155a96a6db61b44b494b9"
+        }
+      ]
+    },
+    {
+      "package": "send",
+      "version": "1.2.1",
+      "lockPath": "node_modules/send",
+      "resolved": "https://registry.npmjs.org/send/-/send-1.2.1.tgz",
+      "integrity": "sha512-1gnZf7DFcoIcajTjTwjwuDjzuz4PPcY2StKPlsGAQ1+YH20IRVrBaXSWmdjowTJ6u8Rc01PoYOGHXfP1mYcZNQ==",
+      "declaredLicense": "MIT",
+      "licenseObservation": "MIT",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "303cfb195f13651e5174c23310e6a71e319b4bf85f9afe9e16b16567cbab02f8",
+      "includedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "sha256": "25a328069fe771f8ed5b6f983ed4b0e6c84b3312ac0f69b28c3d52dc277962c9"
+        }
+      ]
+    },
+    {
+      "package": "serialize-error",
+      "version": "8.1.0",
+      "lockPath": "node_modules/serialize-error",
+      "resolved": "https://registry.npmjs.org/serialize-error/-/serialize-error-8.1.0.tgz",
+      "integrity": "sha512-3NnuWfM6vBYoy5gZFvHiYsVbafvI9vZv/+jlIigFn4oP4zjNPK3LhcY0xSCgeb1a5L8jO71Mit9LlNoi2UfDDQ==",
+      "declaredLicense": "MIT",
+      "licenseObservation": "MIT",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "f655cdd20d879cc83b05da96998ed90f715347dca0778c4ec391a52d497cdcbb",
+      "includedLicenseFiles": [
+        {
+          "file": "license",
+          "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3"
+        }
+      ]
+    },
+    {
+      "package": "serve-static",
+      "version": "2.2.1",
+      "lockPath": "node_modules/serve-static",
+      "resolved": "https://registry.npmjs.org/serve-static/-/serve-static-2.2.1.tgz",
+      "integrity": "sha512-xRXBn0pPqQTVQiC8wyQrKs2MOlX24zQ0POGaj0kultvoOCstBQM5yvOhAVSUwOMjQtTvsPWoNCHfPGwaaQJhTw==",
+      "declaredLicense": "MIT",
+      "licenseObservation": "MIT",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "4f2884fa761dee155f31cb960d792c2900dbaa6aecbe6ebcc3bcfd7e754706b8",
+      "includedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "sha256": "63b9a188d7d43e64b0558b7115255045b9fe20a5fc3ff483421cb899e7f52bcb"
+        }
+      ]
+    },
+    {
+      "package": "setimmediate",
+      "version": "1.0.5",
+      "lockPath": "node_modules/setimmediate",
+      "resolved": "https://registry.npmjs.org/setimmediate/-/setimmediate-1.0.5.tgz",
+      "integrity": "sha512-MATJdZp8sLqDl/68LfQmbP8zKPLQNV6BIZoIgrscFDQ+RsvK/BxeDQOgyxKKoh0y/8h3BqVFnCqQ/gd+reiIXA==",
+      "declaredLicense": "MIT",
+      "licenseObservation": "MIT",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "56c7968c8062ad56e94b8ddb477e514098e0fa34b060aa86b67232fdb12e184d",
+      "includedLicenseFiles": [
+        {
+          "file": "LICENSE.txt",
+          "sha256": "c4b4ad3a5746f1f5249a6dd90396ec519264e1bb02e01e48a6522c48a3a97cb4"
+        }
+      ]
+    },
+    {
+      "package": "setprototypeof",
+      "version": "1.2.0",
+      "lockPath": "node_modules/setprototypeof",
+      "resolved": "https://registry.npmjs.org/setprototypeof/-/setprototypeof-1.2.0.tgz",
+      "integrity": "sha512-E5LDX7Wrp85Kil5bhZv46j8jOeboKq5JMmYM3gVGdGH8xFpPWXUMsNrlODCrkoxMEeNi/XZIwuRvY4XNwYMJpw==",
+      "declaredLicense": "ISC",
+      "licenseObservation": "ISC",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "5b39ddf23d2c12a751cb4af2ce12dd5c87314350be7526fff69b4a3ff2a2d538",
+      "includedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "sha256": "76d6d1ea0c268da37dd3c961b4fcfb23dee8417fff9e8786d4d44c585b781b69"
+        }
+      ]
+    },
+    {
+      "package": "side-channel",
+      "version": "1.1.1",
+      "lockPath": "node_modules/side-channel",
+      "resolved": "https://registry.npmjs.org/side-channel/-/side-channel-1.1.1.tgz",
+      "integrity": "sha512-6x6dK6zJdpTzF4sQeNYxwtvBzf6Eg4GtlesS94HOvTudUeyK2WXAaIfmDgsyslYrRBeFIlsi54AYsFGUuhmvrQ==",
+      "declaredLicense": "MIT",
+      "licenseObservation": "MIT",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "14da3b013c3762da85cfd8b173290285394dfa41870bc4a1e8243aaa38316f2a",
+      "includedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "sha256": "cfc3f455254c0af0655cc3ff46a41ed644b67599f6043346169d285bf2b3cf3b"
+        }
+      ]
+    },
+    {
+      "package": "side-channel-list",
+      "version": "1.0.1",
+      "lockPath": "node_modules/side-channel-list",
+      "resolved": "https://registry.npmjs.org/side-channel-list/-/side-channel-list-1.0.1.tgz",
+      "integrity": "sha512-mjn/0bi/oUURjc5Xl7IaWi/OJJJumuoJFQJfDDyO46+hBWsfaVM65TBHq2eoZBhzl9EchxOijpkbRC8SVBQU0w==",
+      "declaredLicense": "MIT",
+      "licenseObservation": "MIT",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "90f0c08c6c17f4a3fa3dd61873223957b89da4201f01dc0c8b95b0b9e6a2a59a",
+      "includedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "sha256": "5e325595b4ea8cfec3802f545b1def5d7b73e4a5b8e9ba63e32a320f67732292"
+        }
+      ]
+    },
+    {
+      "package": "side-channel-map",
+      "version": "1.0.1",
+      "lockPath": "node_modules/side-channel-map",
+      "resolved": "https://registry.npmjs.org/side-channel-map/-/side-channel-map-1.0.1.tgz",
+      "integrity": "sha512-VCjCNfgMsby3tTdo02nbjtM/ewra6jPHmpThenkTYh8pG9ucZ/1P8So4u4FGBek/BjpOVsDCMoLA/iuBKIFXRA==",
+      "declaredLicense": "MIT",
+      "licenseObservation": "MIT",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "914a8bd732b82523d95bb697eec3e6d95badc5eb13b196fb0772e59354a3ab25",
+      "includedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "sha256": "5e325595b4ea8cfec3802f545b1def5d7b73e4a5b8e9ba63e32a320f67732292"
+        }
+      ]
+    },
+    {
+      "package": "side-channel-weakmap",
+      "version": "1.0.2",
+      "lockPath": "node_modules/side-channel-weakmap",
+      "resolved": "https://registry.npmjs.org/side-channel-weakmap/-/side-channel-weakmap-1.0.2.tgz",
+      "integrity": "sha512-WPS/HvHQTYnHisLo9McqBHOJk2FkHO/tlpvldyrnem4aeQp4hai3gythswg6p01oSoTl58rcpiFAjF2br2Ak2A==",
+      "declaredLicense": "MIT",
+      "licenseObservation": "MIT",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "8c11f0a1c6cfa549588d991a5cb1b04d62953277ed29f47463d415d5946388a8",
+      "includedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "sha256": "cfc3f455254c0af0655cc3ff46a41ed644b67599f6043346169d285bf2b3cf3b"
+        }
+      ]
+    },
+    {
+      "package": "statuses",
+      "version": "2.0.2",
+      "lockPath": "node_modules/statuses",
+      "resolved": "https://registry.npmjs.org/statuses/-/statuses-2.0.2.tgz",
+      "integrity": "sha512-DvEy55V3DB7uknRo+4iOGT5fP1slR8wQohVdknigZPMpMstaKJQWhwiYBACJE3Ul2pTnATihhBYnRhZQHGBiRw==",
+      "declaredLicense": "MIT",
+      "licenseObservation": "MIT",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "dc2508da5568ba768d94b73126cd20a5df934bc0c651ad681022236484ca156c",
+      "includedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "sha256": "512cfa4d5e7a7569c7ae4dd95241cb6ae2aaf648ef9ebd080c01bd24868d26e9"
+        }
+      ]
+    },
+    {
+      "package": "toidentifier",
+      "version": "1.0.1",
+      "lockPath": "node_modules/toidentifier",
+      "resolved": "https://registry.npmjs.org/toidentifier/-/toidentifier-1.0.1.tgz",
+      "integrity": "sha512-o5sSPKEkg/DIQNmH43V0/uerLrpzVedkUh8tGNvaeXpfpuwjKenlSox/2O/BTlZUtEe+JG7s5YhEz608PlAHRA==",
+      "declaredLicense": "MIT",
+      "licenseObservation": "MIT",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "f34c59f784d43da6e633390d85d14ca60539b4676159444f313c62fcfc3b68dc",
+      "includedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "sha256": "a832d679750e49ab433626ab196350b89964b60eb0d3edd3341887c7d5f4c128"
+        }
+      ]
+    },
+    {
+      "package": "type-fest",
+      "version": "0.20.2",
+      "lockPath": "node_modules/type-fest",
+      "resolved": "https://registry.npmjs.org/type-fest/-/type-fest-0.20.2.tgz",
+      "integrity": "sha512-Ne+eE4r0/iWnpAxD852z3A+N0Bt5RN//NjJwRd2VFHEmrywxf5vsZlh4R6lixl6B+wz/8d+maTSAkN1FIkI3LQ==",
+      "declaredLicense": "(MIT OR CC0-1.0)",
+      "licenseObservation": "(MIT OR CC0-1.0)",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "29af8144b4137c6225f97f590ca655e893f86372d226e5fcce8d2d5f69632a30",
+      "includedLicenseFiles": [
+        {
+          "file": "license",
+          "sha256": "64a93ffc0a06a2266dbb57ed7ebe3b56ba66ab337b6347fabdbf86c76819fbae"
+        }
+      ]
+    },
+    {
+      "package": "type-is",
+      "version": "2.1.0",
+      "lockPath": "node_modules/type-is",
+      "resolved": "https://registry.npmjs.org/type-is/-/type-is-2.1.0.tgz",
+      "integrity": "sha512-faYHw0anBbc/kWF3zFTEnxSFOAGUX9GFbOBthvDdLsIlEoWOFOtS0zgCiQYwIskL9iGXZL3kAXD8OoZ4GmMATA==",
+      "declaredLicense": "MIT",
+      "licenseObservation": "MIT",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "87b5f716ec743cdf6d610487698c8558a608b6e0adac522e1a4315b94b081694",
+      "includedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "sha256": "23d466b1b134b415b66fa50c6526b4cf3e7b9258554da88d3abb371721e7ce68"
+        }
+      ]
+    },
+    {
+      "package": "undici",
+      "version": "6.29.1",
+      "lockPath": "node_modules/undici",
+      "resolved": "https://registry.npmjs.org/undici/-/undici-6.29.1.tgz",
+      "integrity": "sha512-EvRlUt/QqAEvXdQeRMYUfwOQsfzpDztykrG2owGEE/rBOBoYv9uF39ZzsNDh4lTFHhTr2XOZjKkYgueD12ZmGA==",
+      "declaredLicense": "MIT",
+      "licenseObservation": "MIT",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "df5d9c505f8db601e62bf67eb835117985e549cfbbb61c4c1a84c55d57ab3532",
+      "includedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "sha256": "a6db8096b2707bc0102d256917d4d33f298ba36d8c3f25de067a2b5bb379db27"
+        }
+      ]
+    },
+    {
+      "package": "unpipe",
+      "version": "1.0.0",
+      "lockPath": "node_modules/unpipe",
+      "resolved": "https://registry.npmjs.org/unpipe/-/unpipe-1.0.0.tgz",
+      "integrity": "sha512-pjy2bYhSsufwWlKwPc+l3cN7+wuJlK6uz0YdJEOlQDbl6jo/YlPi4mb8agUkVC8BF7V8NuzeyPNqRksA3hztKQ==",
+      "declaredLicense": "MIT",
+      "licenseObservation": "MIT",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "28b717f978d2a4fc72cd08236931443b63fe6586102df3d1967e2b21ea8c5e11",
+      "includedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "sha256": "1a526fbe8d8577f5a4b1c2821842b55b7c0e18862531c62ae4ce69c9b19b74b6"
+        }
+      ]
+    },
+    {
+      "package": "vary",
+      "version": "1.1.2",
+      "lockPath": "node_modules/vary",
+      "resolved": "https://registry.npmjs.org/vary/-/vary-1.1.2.tgz",
+      "integrity": "sha512-BNGbWLfd0eUPabhkXUVm0j8uuvREyTh5ovRa/dyow/BqAbZJyC+5fU+IzQOzmAKzYqYRAISoRhdQr3eIZ/PXqg==",
+      "declaredLicense": "MIT",
+      "licenseObservation": "MIT",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "73edaee964d527117a9f69d6360fbe6cec534abd9127794be01a6af58a139daa",
+      "includedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "sha256": "bd47ce7b88c7759630d1e2b9fcfa170a0f1fde522be09e13fb1581a79d090400"
+        }
+      ]
+    },
+    {
+      "package": "wrappy",
+      "version": "1.0.2",
+      "lockPath": "node_modules/wrappy",
+      "resolved": "https://registry.npmjs.org/wrappy/-/wrappy-1.0.2.tgz",
+      "integrity": "sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==",
+      "declaredLicense": "ISC",
+      "licenseObservation": "ISC",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "712ac9c4c3cef8bc79f42cf6075ff18551f4cb768f35158214fd643853ad7abc",
+      "includedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "sha256": "4ec3d4c66cd87f5c8d8ad911b10f99bf27cb00cdfcff82621956e379186b016b"
+        }
+      ]
+    },
+    {
+      "package": "yallist",
+      "version": "4.0.0",
+      "lockPath": "node_modules/yallist",
+      "resolved": "https://registry.npmjs.org/yallist/-/yallist-4.0.0.tgz",
+      "integrity": "sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==",
+      "declaredLicense": "ISC",
+      "licenseObservation": "ISC",
+      "evidence": "installed package.json license field",
+      "metadataSha256": "c56b604bce814520105739e9559142ea9d4417454ebb933fd5687ca1d8d89bd5",
+      "includedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "sha256": "4ec3d4c66cd87f5c8d8ad911b10f99bf27cb00cdfcff82621956e379186b016b"
+        }
+      ]
+    }
+  ]
+}

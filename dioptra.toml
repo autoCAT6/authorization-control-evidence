@@ -1,0 +1,26 @@
+[[plugins]]
+path = "plugins/authorization_contract"
+description = "Local signed-capability authorization and evidence evaluation."
+
+  [[plugins.tasks.functions]]
+  filename = "tasks.py"
+  name = "evaluate_authorization_contract"
+  input_params = []
+  output_params = [
+    { name = "observations", type = "string" },
+    { name = "audit", type = "string" },
+    { name = "summary", type = "string" },
+  ]
+
+  [[plugins.tasks.artifacts]]
+  filename = "artifacts.py"
+  name = "VerifiedJsonArtifactTask"
+  output_params = [ { name = "contents", type = "string" } ]
+
+[[entrypoints]]
+path = "entrypoints/authorization-contract.yaml"
+name = "Authorization contract evaluation"
+description = "Evaluate synthetic signed delegation and revocation, retaining bounded evidence artifacts."
+params = []
+plugins = [ "authorization_contract" ]
+artifact_plugins = [ "authorization_contract" ]

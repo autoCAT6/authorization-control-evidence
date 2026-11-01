@@ -1,0 +1,126 @@
+{
+  "transport": "actual loopback HTTP with production requests SDK",
+  "dioptraSource": "71bf4fa7ad62f96640e0884b0d11e7c3fdc1b4c0",
+  "sourceChanged": false,
+  "httpEvents": [
+    {
+      "method": "POST",
+      "path": "/api/v1/workflows/resourceImport",
+      "status": 401
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/users",
+      "status": 308
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/users/",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/auth/login",
+      "status": 401
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/auth/login",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/workflows/resourceImport",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/entrypoints/10",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/entrypoints/10/snapshots/12/config",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/entrypoints/10/snapshots/12/artifactPlugins",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/entrypoints/10/snapshots/12/plugins/bundle",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/entrypoints/10/snapshots/12/artifactPlugins/bundle",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/auth/logout",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/entrypoints/10",
+      "status": 401
+    }
+  ],
+  "newAuthorizationCases": 0,
+  "status": "pass",
+  "entrypointId": 10,
+  "snapshotId": 12,
+  "bundles": [
+    {
+      "kind": "plugins",
+      "bytes": 984,
+      "sha256": "c4ab640c0b845193ed7c3141789c28858b48c7cfa21cb35f3edfa80e346f5414"
+    },
+    {
+      "kind": "artifactPlugins",
+      "bytes": 984,
+      "sha256": "c4ab640c0b845193ed7c3141789c28858b48c7cfa21cb35f3edfa80e346f5414"
+    }
+  ],
+  "registration": {
+    "message": "successfully imported",
+    "hash": "1ba895018c4bfff9e5b74c9cfbb372a00f72f267c8daff0d0b39ab7db08b2fe0",
+    "resources": {
+      "plugins": {
+        "authorization_contract": 7
+      },
+      "plugin_param_types": {},
+      "entrypoints": {
+        "Authorization contract evaluation": 10
+      }
+    }
+  },
+  "summary": {
+    "schema": "authorization-contract-summary/v1",
+    "status": "pass",
+    "cases": 14,
+    "actualHttpsRequests": 24,
+    "endpointEffects": 9,
+    "explicitRefusalResponses": 12,
+    "observationsSha256": "1cf4cfe24bbbddfd20cb14c9c49e233c3cd1db4ba298c7e60d3050bb9de199ef",
+    "auditSha256": "d800749fe917789605c6c90b436540080459ab14e474e46db57c6926a2c30937",
+    "sourceSha256": "c76d3866128023f9d98a14d8fe2588115f39a1035033cf4cca4587c1a169c967",
+    "dependencyLockSha256": "b6ccec079f1e0b2070163d226ca93c45de6a969c356f6330e76d2bd69f1a101c",
+    "profile": {
+      "maxClockSkewSeconds": 1,
+      "maxChainLength": 16,
+      "revocation": "Explicit synchronous local control-plane commit; resource native chain-inspection hook checks revoked ancestor IDs. Not a default or universal revocation API."
+    },
+    "limits": "One local reference stack with synthetic records and separate actor keys; not a second implementation, independent review, full ZCAP specification conformance, model safety, or production adoption."
+  },
+  "artifactNames": [
+    "audit",
+    "observations",
+    "summary"
+  ],
+  "serverThreadStopped": true,
+  "listenerClosed": true
+}

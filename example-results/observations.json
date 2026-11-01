@@ -1,0 +1,1254 @@
+{
+  "stage": "local-full-matrix-executed-awaiting-evidence-audit",
+  "actors": 4,
+  "libraryVersions": {
+    "@digitalbazaar/ed25519-signature-2020": "5.4.0",
+    "@digitalbazaar/ed25519-verification-key-2020": "4.2.0",
+    "@digitalbazaar/ezcap": "4.4.0",
+    "@digitalbazaar/ezcap-express": "7.3.0",
+    "@digitalbazaar/http-signature-zcap-invoke": "6.1.0",
+    "@digitalbazaar/zcap": "9.0.3",
+    "express": "5.3.0",
+    "jsonld-signatures": "11.6.0"
+  },
+  "actualRequestTransport": "TLS-verified loopback HTTPS; task-specific trusted certificate, no global TLS bypass",
+  "dependencyLockSha256": "b6ccec079f1e0b2070163d226ca93c45de6a969c356f6330e76d2bd69f1a101c",
+  "results": [
+    {
+      "caseId": "valid-direct",
+      "responseStatus": 200,
+      "observedEffects": 2,
+      "resourceChainDepths": [
+        2,
+        2
+      ],
+      "outcome": "pass"
+    },
+    {
+      "caseId": "valid-worker",
+      "responseStatus": 200,
+      "observedEffects": 2,
+      "resourceChainDepths": [
+        3,
+        3
+      ],
+      "outcome": "pass"
+    },
+    {
+      "caseId": "same-resource-distinct-authorities",
+      "responseStatus": 200,
+      "observedEffects": 2,
+      "resourceChainDepths": [
+        3,
+        3
+      ],
+      "outcome": "pass"
+    },
+    {
+      "caseId": "action-expansion",
+      "responseStatus": 403,
+      "observedEffects": 0,
+      "unchangedResourceState": true,
+      "stateBefore": [
+        [
+          "e2fa9b02b62c5750",
+          "644cc8464dbe4c33"
+        ],
+        [
+          "89fec718d7693c0f",
+          "2e1cfa82b035c26c"
+        ],
+        [
+          "89bd92f48c3e528f",
+          "4b5cdbe989b3e1f3"
+        ]
+      ],
+      "stateAfter": [
+        [
+          "e2fa9b02b62c5750",
+          "644cc8464dbe4c33"
+        ],
+        [
+          "89fec718d7693c0f",
+          "2e1cfa82b035c26c"
+        ],
+        [
+          "89bd92f48c3e528f",
+          "4b5cdbe989b3e1f3"
+        ]
+      ],
+      "explicitHttpRefusal": true,
+      "outcome": "pass"
+    },
+    {
+      "caseId": "target-expansion",
+      "responseStatus": 403,
+      "observedEffects": 0,
+      "unchangedResourceState": true,
+      "stateBefore": [
+        [
+          "ba23c9d67ffaf0ef",
+          "644cc8464dbe4c33"
+        ],
+        [
+          "1527af36c45cb402",
+          "2e1cfa82b035c26c"
+        ],
+        [
+          "2426b2ba0f8fdfce",
+          "4b5cdbe989b3e1f3"
+        ]
+      ],
+      "stateAfter": [
+        [
+          "ba23c9d67ffaf0ef",
+          "644cc8464dbe4c33"
+        ],
+        [
+          "1527af36c45cb402",
+          "2e1cfa82b035c26c"
+        ],
+        [
+          "2426b2ba0f8fdfce",
+          "4b5cdbe989b3e1f3"
+        ]
+      ],
+      "explicitHttpRefusal": true,
+      "outcome": "pass"
+    },
+    {
+      "caseId": "wrong-signer",
+      "responseStatus": 403,
+      "observedEffects": 0,
+      "unchangedResourceState": true,
+      "stateBefore": [
+        [
+          "87550419671bbdc6",
+          "644cc8464dbe4c33"
+        ],
+        [
+          "1df9ea7a07bb3384",
+          "2e1cfa82b035c26c"
+        ],
+        [
+          "48e6cf851de6c037",
+          "4b5cdbe989b3e1f3"
+        ]
+      ],
+      "stateAfter": [
+        [
+          "87550419671bbdc6",
+          "644cc8464dbe4c33"
+        ],
+        [
+          "1df9ea7a07bb3384",
+          "2e1cfa82b035c26c"
+        ],
+        [
+          "48e6cf851de6c037",
+          "4b5cdbe989b3e1f3"
+        ]
+      ],
+      "explicitHttpRefusal": true,
+      "outcome": "pass"
+    },
+    {
+      "caseId": "tampered-ancestor",
+      "responseStatus": 403,
+      "observedEffects": 0,
+      "unchangedResourceState": true,
+      "stateBefore": [
+        [
+          "de8249b14c3e43ac",
+          "644cc8464dbe4c33"
+        ],
+        [
+          "d852040c79acade9",
+          "2e1cfa82b035c26c"
+        ],
+        [
+          "4b7a91e6f796cfe2",
+          "4b5cdbe989b3e1f3"
+        ]
+      ],
+      "stateAfter": [
+        [
+          "de8249b14c3e43ac",
+          "644cc8464dbe4c33"
+        ],
+        [
+          "d852040c79acade9",
+          "2e1cfa82b035c26c"
+        ],
+        [
+          "4b7a91e6f796cfe2",
+          "4b5cdbe989b3e1f3"
+        ]
+      ],
+      "explicitHttpRefusal": true,
+      "outcome": "pass"
+    },
+    {
+      "caseId": "expiry-expansion",
+      "responseStatus": 403,
+      "observedEffects": 0,
+      "unchangedResourceState": true,
+      "stateBefore": [
+        [
+          "b33216f44d659daa",
+          "644cc8464dbe4c33"
+        ],
+        [
+          "5a086e2765982fe4",
+          "2e1cfa82b035c26c"
+        ],
+        [
+          "f50035e819590908",
+          "4b5cdbe989b3e1f3"
+        ]
+      ],
+      "stateAfter": [
+        [
+          "b33216f44d659daa",
+          "644cc8464dbe4c33"
+        ],
+        [
+          "5a086e2765982fe4",
+          "2e1cfa82b035c26c"
+        ],
+        [
+          "f50035e819590908",
+          "4b5cdbe989b3e1f3"
+        ]
+      ],
+      "explicitHttpRefusal": true,
+      "outcome": "pass"
+    },
+    {
+      "caseId": "expired-leaf",
+      "responseStatus": 403,
+      "observedEffects": 0,
+      "unchangedResourceState": true,
+      "stateBefore": [
+        [
+          "b839843aa8acd3fa",
+          "644cc8464dbe4c33"
+        ],
+        [
+          "64514d169f28edd7",
+          "2e1cfa82b035c26c"
+        ],
+        [
+          "f5168edfe8de6c34",
+          "4b5cdbe989b3e1f3"
+        ]
+      ],
+      "stateAfter": [
+        [
+          "b839843aa8acd3fa",
+          "644cc8464dbe4c33"
+        ],
+        [
+          "64514d169f28edd7",
+          "2e1cfa82b035c26c"
+        ],
+        [
+          "f5168edfe8de6c34",
+          "4b5cdbe989b3e1f3"
+        ]
+      ],
+      "explicitHttpRefusal": true,
+      "outcome": "pass"
+    },
+    {
+      "caseId": "argument-delegated-to-wrong-service",
+      "responseStatus": 403,
+      "observedEffects": 0,
+      "unchangedResourceState": true,
+      "stateBefore": [
+        [
+          "a8a77d045a84de78",
+          "644cc8464dbe4c33"
+        ],
+        [
+          "30bdfbee009da3bb",
+          "2e1cfa82b035c26c"
+        ],
+        [
+          "373fc94235a9fdef",
+          "4b5cdbe989b3e1f3"
+        ]
+      ],
+      "stateAfter": [
+        [
+          "a8a77d045a84de78",
+          "644cc8464dbe4c33"
+        ],
+        [
+          "30bdfbee009da3bb",
+          "2e1cfa82b035c26c"
+        ],
+        [
+          "373fc94235a9fdef",
+          "4b5cdbe989b3e1f3"
+        ]
+      ],
+      "explicitHttpRefusal": true,
+      "outcome": "pass"
+    },
+    {
+      "caseId": "signed-body-substitution",
+      "responseStatus": 400,
+      "observedEffects": 0,
+      "unchangedResourceState": true,
+      "stateBefore": [
+        [
+          "44ef99bb947c4939",
+          "644cc8464dbe4c33"
+        ],
+        [
+          "caa3a8a4bcf64535",
+          "2e1cfa82b035c26c"
+        ],
+        [
+          "de3650ce0eeb6f19",
+          "4b5cdbe989b3e1f3"
+        ]
+      ],
+      "stateAfter": [
+        [
+          "44ef99bb947c4939",
+          "644cc8464dbe4c33"
+        ],
+        [
+          "caa3a8a4bcf64535",
+          "2e1cfa82b035c26c"
+        ],
+        [
+          "de3650ce0eeb6f19",
+          "4b5cdbe989b3e1f3"
+        ]
+      ],
+      "explicitHttpRefusal": true,
+      "outcome": "pass"
+    },
+    {
+      "caseId": "revoked-ancestor-live-leaf",
+      "responseStatus": 403,
+      "observedEffects": 1,
+      "preCommitEffects": 1,
+      "postCommitEffects": 0,
+      "leafUnexpired": true,
+      "commitSequence": 66,
+      "leafExpiresAt": "2026-10-31T23:57:17Z",
+      "explicitHttpRefusal": true,
+      "outcome": "pass"
+    },
+    {
+      "caseId": "inflight-and-post-commit",
+      "responseStatus": 403,
+      "observedEffects": 1,
+      "preCommitEffects": 1,
+      "postCommitEffects": 0,
+      "inflightCompletionStatus": 200,
+      "effectRequestRef": "ba2f468f94ee9393",
+      "leafExpiresAt": "2026-10-31T23:57:17Z",
+      "commitSequence": 73,
+      "outcome": "pass"
+    },
+    {
+      "caseId": "independent-authority-revocation-control",
+      "responseStatus": 403,
+      "observedEffects": 1,
+      "independentlyGrantedReadStillAllowed": true,
+      "commitSequence": 78,
+      "outcome": "pass"
+    }
+  ],
+  "ledger": [
+    {
+      "sequence": 1,
+      "atUtc": "2026-10-31T23:56:17.630Z",
+      "caseId": "valid-direct",
+      "stage": "received",
+      "policyVersion": 1,
+      "requestRef": "2ca178433af3c32d",
+      "endpoint": "copy"
+    },
+    {
+      "sequence": 2,
+      "atUtc": "2026-10-31T23:56:17.637Z",
+      "caseId": "valid-direct",
+      "stage": "verified",
+      "policyVersion": 1,
+      "requestRef": "2ca178433af3c32d",
+      "endpoint": "copy",
+      "action": "write",
+      "capabilityRef": "1700c68988027d81",
+      "chainDepth": 2,
+      "actorRef": "8355327458d6bc93"
+    },
+    {
+      "sequence": 3,
+      "atUtc": "2026-10-31T23:56:17.639Z",
+      "caseId": "valid-direct",
+      "stage": "received",
+      "policyVersion": 1,
+      "requestRef": "c40df7f2d1db3c3a",
+      "endpoint": "resource"
+    },
+    {
+      "sequence": 4,
+      "atUtc": "2026-10-31T23:56:17.641Z",
+      "caseId": "valid-direct",
+      "stage": "verified",
+      "policyVersion": 1,
+      "requestRef": "c40df7f2d1db3c3a",
+      "endpoint": "resource",
+      "action": "read",
+      "capabilityRef": "58d417022a82f329",
+      "chainDepth": 2,
+      "actorRef": "f20c43441a89baf6"
+    },
+    {
+      "sequence": 5,
+      "atUtc": "2026-10-31T23:56:17.641Z",
+      "caseId": "valid-direct",
+      "stage": "effect",
+      "policyVersion": 1,
+      "requestRef": "c40df7f2d1db3c3a",
+      "operation": "read",
+      "resourceRef": "d224a41149998aee",
+      "valueDigest": "644cc8464dbe4c3314f4a1542556c54076fc923b9efda3a4afb1a2ceeccda826"
+    },
+    {
+      "sequence": 6,
+      "atUtc": "2026-10-31T23:56:17.642Z",
+      "caseId": "valid-direct",
+      "stage": "http-completed",
+      "policyVersion": 1,
+      "requestRef": "c40df7f2d1db3c3a",
+      "endpoint": "resource",
+      "status": 200
+    },
+    {
+      "sequence": 7,
+      "atUtc": "2026-10-31T23:56:17.645Z",
+      "caseId": "valid-direct",
+      "stage": "received",
+      "policyVersion": 1,
+      "requestRef": "23d92545a8d29d68",
+      "endpoint": "resource"
+    },
+    {
+      "sequence": 8,
+      "atUtc": "2026-10-31T23:56:17.647Z",
+      "caseId": "valid-direct",
+      "stage": "verified",
+      "policyVersion": 1,
+      "requestRef": "23d92545a8d29d68",
+      "endpoint": "resource",
+      "action": "write",
+      "capabilityRef": "a6f2b36256093f12",
+      "chainDepth": 2,
+      "actorRef": "f20c43441a89baf6"
+    },
+    {
+      "sequence": 9,
+      "atUtc": "2026-10-31T23:56:17.647Z",
+      "caseId": "valid-direct",
+      "stage": "effect",
+      "policyVersion": 1,
+      "requestRef": "23d92545a8d29d68",
+      "operation": "write",
+      "resourceRef": "039118883214cf30",
+      "valueDigest": "644cc8464dbe4c3314f4a1542556c54076fc923b9efda3a4afb1a2ceeccda826"
+    },
+    {
+      "sequence": 10,
+      "atUtc": "2026-10-31T23:56:17.647Z",
+      "caseId": "valid-direct",
+      "stage": "http-completed",
+      "policyVersion": 1,
+      "requestRef": "23d92545a8d29d68",
+      "endpoint": "resource",
+      "status": 200
+    },
+    {
+      "sequence": 11,
+      "atUtc": "2026-10-31T23:56:17.648Z",
+      "caseId": "valid-direct",
+      "stage": "http-completed",
+      "policyVersion": 1,
+      "requestRef": "2ca178433af3c32d",
+      "endpoint": "copy",
+      "status": 200
+    },
+    {
+      "sequence": 12,
+      "atUtc": "2026-10-31T23:56:17.651Z",
+      "caseId": "valid-worker",
+      "stage": "received",
+      "policyVersion": 1,
+      "requestRef": "cce6316b54fb8435",
+      "endpoint": "copy"
+    },
+    {
+      "sequence": 13,
+      "atUtc": "2026-10-31T23:56:17.652Z",
+      "caseId": "valid-worker",
+      "stage": "verified",
+      "policyVersion": 1,
+      "requestRef": "cce6316b54fb8435",
+      "endpoint": "copy",
+      "action": "write",
+      "capabilityRef": "4dc30a460425bb0f",
+      "chainDepth": 2,
+      "actorRef": "8355327458d6bc93"
+    },
+    {
+      "sequence": 14,
+      "atUtc": "2026-10-31T23:56:17.654Z",
+      "caseId": "valid-worker",
+      "stage": "received",
+      "policyVersion": 1,
+      "requestRef": "3e5abf86d0628740",
+      "endpoint": "resource"
+    },
+    {
+      "sequence": 15,
+      "atUtc": "2026-10-31T23:56:17.656Z",
+      "caseId": "valid-worker",
+      "stage": "verified",
+      "policyVersion": 1,
+      "requestRef": "3e5abf86d0628740",
+      "endpoint": "resource",
+      "action": "read",
+      "capabilityRef": "051f7842e6aa4524",
+      "chainDepth": 3,
+      "actorRef": "cc9a63ff5a1612f6"
+    },
+    {
+      "sequence": 16,
+      "atUtc": "2026-10-31T23:56:17.656Z",
+      "caseId": "valid-worker",
+      "stage": "effect",
+      "policyVersion": 1,
+      "requestRef": "3e5abf86d0628740",
+      "operation": "read",
+      "resourceRef": "5aea889c77b03b36",
+      "valueDigest": "644cc8464dbe4c3314f4a1542556c54076fc923b9efda3a4afb1a2ceeccda826"
+    },
+    {
+      "sequence": 17,
+      "atUtc": "2026-10-31T23:56:17.656Z",
+      "caseId": "valid-worker",
+      "stage": "http-completed",
+      "policyVersion": 1,
+      "requestRef": "3e5abf86d0628740",
+      "endpoint": "resource",
+      "status": 200
+    },
+    {
+      "sequence": 18,
+      "atUtc": "2026-10-31T23:56:17.658Z",
+      "caseId": "valid-worker",
+      "stage": "received",
+      "policyVersion": 1,
+      "requestRef": "24ba72c683227933",
+      "endpoint": "resource"
+    },
+    {
+      "sequence": 19,
+      "atUtc": "2026-10-31T23:56:17.660Z",
+      "caseId": "valid-worker",
+      "stage": "verified",
+      "policyVersion": 1,
+      "requestRef": "24ba72c683227933",
+      "endpoint": "resource",
+      "action": "write",
+      "capabilityRef": "34a1a21f3bd37030",
+      "chainDepth": 3,
+      "actorRef": "cc9a63ff5a1612f6"
+    },
+    {
+      "sequence": 20,
+      "atUtc": "2026-10-31T23:56:17.660Z",
+      "caseId": "valid-worker",
+      "stage": "effect",
+      "policyVersion": 1,
+      "requestRef": "24ba72c683227933",
+      "operation": "write",
+      "resourceRef": "fcb794964b4e8880",
+      "valueDigest": "644cc8464dbe4c3314f4a1542556c54076fc923b9efda3a4afb1a2ceeccda826"
+    },
+    {
+      "sequence": 21,
+      "atUtc": "2026-10-31T23:56:17.660Z",
+      "caseId": "valid-worker",
+      "stage": "http-completed",
+      "policyVersion": 1,
+      "requestRef": "24ba72c683227933",
+      "endpoint": "resource",
+      "status": 200
+    },
+    {
+      "sequence": 22,
+      "atUtc": "2026-10-31T23:56:17.661Z",
+      "caseId": "valid-worker",
+      "stage": "http-completed",
+      "policyVersion": 1,
+      "requestRef": "cce6316b54fb8435",
+      "endpoint": "copy",
+      "status": 200
+    },
+    {
+      "sequence": 23,
+      "atUtc": "2026-10-31T23:56:17.663Z",
+      "caseId": "same-resource-distinct-authorities",
+      "stage": "received",
+      "policyVersion": 1,
+      "requestRef": "219fa4beb8252031",
+      "endpoint": "copy"
+    },
+    {
+      "sequence": 24,
+      "atUtc": "2026-10-31T23:56:17.664Z",
+      "caseId": "same-resource-distinct-authorities",
+      "stage": "verified",
+      "policyVersion": 1,
+      "requestRef": "219fa4beb8252031",
+      "endpoint": "copy",
+      "action": "write",
+      "capabilityRef": "ccc79a234f8ff359",
+      "chainDepth": 2,
+      "actorRef": "8355327458d6bc93"
+    },
+    {
+      "sequence": 25,
+      "atUtc": "2026-10-31T23:56:17.665Z",
+      "caseId": "same-resource-distinct-authorities",
+      "stage": "received",
+      "policyVersion": 1,
+      "requestRef": "148eb3319b50b493",
+      "endpoint": "resource"
+    },
+    {
+      "sequence": 26,
+      "atUtc": "2026-10-31T23:56:17.667Z",
+      "caseId": "same-resource-distinct-authorities",
+      "stage": "verified",
+      "policyVersion": 1,
+      "requestRef": "148eb3319b50b493",
+      "endpoint": "resource",
+      "action": "read",
+      "capabilityRef": "c734fdc3ed5350ec",
+      "chainDepth": 3,
+      "actorRef": "cc9a63ff5a1612f6"
+    },
+    {
+      "sequence": 27,
+      "atUtc": "2026-10-31T23:56:17.667Z",
+      "caseId": "same-resource-distinct-authorities",
+      "stage": "effect",
+      "policyVersion": 1,
+      "requestRef": "148eb3319b50b493",
+      "operation": "read",
+      "resourceRef": "735ab25b83c9c19a",
+      "valueDigest": "644cc8464dbe4c3314f4a1542556c54076fc923b9efda3a4afb1a2ceeccda826"
+    },
+    {
+      "sequence": 28,
+      "atUtc": "2026-10-31T23:56:17.667Z",
+      "caseId": "same-resource-distinct-authorities",
+      "stage": "http-completed",
+      "policyVersion": 1,
+      "requestRef": "148eb3319b50b493",
+      "endpoint": "resource",
+      "status": 200
+    },
+    {
+      "sequence": 29,
+      "atUtc": "2026-10-31T23:56:17.668Z",
+      "caseId": "same-resource-distinct-authorities",
+      "stage": "received",
+      "policyVersion": 1,
+      "requestRef": "fc172936dcf24dad",
+      "endpoint": "resource"
+    },
+    {
+      "sequence": 30,
+      "atUtc": "2026-10-31T23:56:17.670Z",
+      "caseId": "same-resource-distinct-authorities",
+      "stage": "verified",
+      "policyVersion": 1,
+      "requestRef": "fc172936dcf24dad",
+      "endpoint": "resource",
+      "action": "write",
+      "capabilityRef": "7a6fb232b9524416",
+      "chainDepth": 3,
+      "actorRef": "cc9a63ff5a1612f6"
+    },
+    {
+      "sequence": 31,
+      "atUtc": "2026-10-31T23:56:17.670Z",
+      "caseId": "same-resource-distinct-authorities",
+      "stage": "effect",
+      "policyVersion": 1,
+      "requestRef": "fc172936dcf24dad",
+      "operation": "write",
+      "resourceRef": "735ab25b83c9c19a",
+      "valueDigest": "644cc8464dbe4c3314f4a1542556c54076fc923b9efda3a4afb1a2ceeccda826"
+    },
+    {
+      "sequence": 32,
+      "atUtc": "2026-10-31T23:56:17.670Z",
+      "caseId": "same-resource-distinct-authorities",
+      "stage": "http-completed",
+      "policyVersion": 1,
+      "requestRef": "fc172936dcf24dad",
+      "endpoint": "resource",
+      "status": 200
+    },
+    {
+      "sequence": 33,
+      "atUtc": "2026-10-31T23:56:17.670Z",
+      "caseId": "same-resource-distinct-authorities",
+      "stage": "http-completed",
+      "policyVersion": 1,
+      "requestRef": "219fa4beb8252031",
+      "endpoint": "copy",
+      "status": 200
+    },
+    {
+      "sequence": 34,
+      "atUtc": "2026-10-31T23:56:17.673Z",
+      "caseId": "action-expansion",
+      "stage": "received",
+      "policyVersion": 1,
+      "requestRef": "8ab596d572a275e5",
+      "endpoint": "resource"
+    },
+    {
+      "sequence": 35,
+      "atUtc": "2026-10-31T23:56:17.675Z",
+      "caseId": "action-expansion",
+      "stage": "refused",
+      "policyVersion": 1,
+      "requestRef": "8ab596d572a275e5",
+      "status": 403,
+      "errorType": "Error"
+    },
+    {
+      "sequence": 36,
+      "atUtc": "2026-10-31T23:56:17.675Z",
+      "caseId": "action-expansion",
+      "stage": "http-completed",
+      "policyVersion": 1,
+      "requestRef": "8ab596d572a275e5",
+      "endpoint": "resource",
+      "status": 403
+    },
+    {
+      "sequence": 37,
+      "atUtc": "2026-10-31T23:56:17.677Z",
+      "caseId": "target-expansion",
+      "stage": "received",
+      "policyVersion": 1,
+      "requestRef": "fc9cf05f28bb0ce2",
+      "endpoint": "resource"
+    },
+    {
+      "sequence": 38,
+      "atUtc": "2026-10-31T23:56:17.679Z",
+      "caseId": "target-expansion",
+      "stage": "refused",
+      "policyVersion": 1,
+      "requestRef": "fc9cf05f28bb0ce2",
+      "status": 403,
+      "errorType": "Error"
+    },
+    {
+      "sequence": 39,
+      "atUtc": "2026-10-31T23:56:17.679Z",
+      "caseId": "target-expansion",
+      "stage": "http-completed",
+      "policyVersion": 1,
+      "requestRef": "fc9cf05f28bb0ce2",
+      "endpoint": "resource",
+      "status": 403
+    },
+    {
+      "sequence": 40,
+      "atUtc": "2026-10-31T23:56:17.680Z",
+      "caseId": "wrong-signer",
+      "stage": "received",
+      "policyVersion": 1,
+      "requestRef": "647091dbd96d3116",
+      "endpoint": "resource"
+    },
+    {
+      "sequence": 41,
+      "atUtc": "2026-10-31T23:56:17.682Z",
+      "caseId": "wrong-signer",
+      "stage": "refused",
+      "policyVersion": 1,
+      "requestRef": "647091dbd96d3116",
+      "status": 403,
+      "errorType": "Error"
+    },
+    {
+      "sequence": 42,
+      "atUtc": "2026-10-31T23:56:17.682Z",
+      "caseId": "wrong-signer",
+      "stage": "http-completed",
+      "policyVersion": 1,
+      "requestRef": "647091dbd96d3116",
+      "endpoint": "resource",
+      "status": 403
+    },
+    {
+      "sequence": 43,
+      "atUtc": "2026-10-31T23:56:17.684Z",
+      "caseId": "tampered-ancestor",
+      "stage": "received",
+      "policyVersion": 1,
+      "requestRef": "c36141ec090366b1",
+      "endpoint": "resource"
+    },
+    {
+      "sequence": 44,
+      "atUtc": "2026-10-31T23:56:17.685Z",
+      "caseId": "tampered-ancestor",
+      "stage": "refused",
+      "policyVersion": 1,
+      "requestRef": "c36141ec090366b1",
+      "status": 403,
+      "errorType": "VerificationError"
+    },
+    {
+      "sequence": 45,
+      "atUtc": "2026-10-31T23:56:17.685Z",
+      "caseId": "tampered-ancestor",
+      "stage": "http-completed",
+      "policyVersion": 1,
+      "requestRef": "c36141ec090366b1",
+      "endpoint": "resource",
+      "status": 403
+    },
+    {
+      "sequence": 46,
+      "atUtc": "2026-10-31T23:56:17.687Z",
+      "caseId": "expiry-expansion",
+      "stage": "received",
+      "policyVersion": 1,
+      "requestRef": "4da7c4a904f6fcc9",
+      "endpoint": "resource"
+    },
+    {
+      "sequence": 47,
+      "atUtc": "2026-10-31T23:56:17.688Z",
+      "caseId": "expiry-expansion",
+      "stage": "refused",
+      "policyVersion": 1,
+      "requestRef": "4da7c4a904f6fcc9",
+      "status": 403,
+      "errorType": "Error"
+    },
+    {
+      "sequence": 48,
+      "atUtc": "2026-10-31T23:56:17.688Z",
+      "caseId": "expiry-expansion",
+      "stage": "http-completed",
+      "policyVersion": 1,
+      "requestRef": "4da7c4a904f6fcc9",
+      "endpoint": "resource",
+      "status": 403
+    },
+    {
+      "sequence": 49,
+      "atUtc": "2026-10-31T23:56:17.690Z",
+      "caseId": "expired-leaf",
+      "stage": "received",
+      "policyVersion": 1,
+      "requestRef": "de5e09de68ed8504",
+      "endpoint": "resource"
+    },
+    {
+      "sequence": 50,
+      "atUtc": "2026-10-31T23:56:17.692Z",
+      "caseId": "expired-leaf",
+      "stage": "refused",
+      "policyVersion": 1,
+      "requestRef": "de5e09de68ed8504",
+      "status": 403,
+      "errorType": "Error"
+    },
+    {
+      "sequence": 51,
+      "atUtc": "2026-10-31T23:56:17.692Z",
+      "caseId": "expired-leaf",
+      "stage": "http-completed",
+      "policyVersion": 1,
+      "requestRef": "de5e09de68ed8504",
+      "endpoint": "resource",
+      "status": 403
+    },
+    {
+      "sequence": 52,
+      "atUtc": "2026-10-31T23:56:17.693Z",
+      "caseId": "argument-delegated-to-wrong-service",
+      "stage": "received",
+      "policyVersion": 1,
+      "requestRef": "b5c5e3ae60ff69d9",
+      "endpoint": "copy"
+    },
+    {
+      "sequence": 53,
+      "atUtc": "2026-10-31T23:56:17.694Z",
+      "caseId": "argument-delegated-to-wrong-service",
+      "stage": "verified",
+      "policyVersion": 1,
+      "requestRef": "b5c5e3ae60ff69d9",
+      "endpoint": "copy",
+      "action": "write",
+      "capabilityRef": "64ec547a99b9ee3a",
+      "chainDepth": 2,
+      "actorRef": "8355327458d6bc93"
+    },
+    {
+      "sequence": 54,
+      "atUtc": "2026-10-31T23:56:17.696Z",
+      "caseId": "argument-delegated-to-wrong-service",
+      "stage": "received",
+      "policyVersion": 1,
+      "requestRef": "0edf297020c26c19",
+      "endpoint": "resource"
+    },
+    {
+      "sequence": 55,
+      "atUtc": "2026-10-31T23:56:17.697Z",
+      "caseId": "argument-delegated-to-wrong-service",
+      "stage": "refused",
+      "policyVersion": 1,
+      "requestRef": "0edf297020c26c19",
+      "status": 403,
+      "errorType": "VerificationError"
+    },
+    {
+      "sequence": 56,
+      "atUtc": "2026-10-31T23:56:17.697Z",
+      "caseId": "argument-delegated-to-wrong-service",
+      "stage": "http-completed",
+      "policyVersion": 1,
+      "requestRef": "0edf297020c26c19",
+      "endpoint": "resource",
+      "status": 403
+    },
+    {
+      "sequence": 57,
+      "atUtc": "2026-10-31T23:56:17.697Z",
+      "caseId": "argument-delegated-to-wrong-service",
+      "stage": "copy-refused",
+      "policyVersion": 1,
+      "requestRef": "b5c5e3ae60ff69d9",
+      "status": 403
+    },
+    {
+      "sequence": 58,
+      "atUtc": "2026-10-31T23:56:17.697Z",
+      "caseId": "argument-delegated-to-wrong-service",
+      "stage": "http-completed",
+      "policyVersion": 1,
+      "requestRef": "b5c5e3ae60ff69d9",
+      "endpoint": "copy",
+      "status": 403
+    },
+    {
+      "sequence": 59,
+      "atUtc": "2026-10-31T23:56:17.700Z",
+      "caseId": "signed-body-substitution",
+      "stage": "received",
+      "policyVersion": 1,
+      "requestRef": "d657f4fa6c744150",
+      "endpoint": "copy"
+    },
+    {
+      "sequence": 60,
+      "atUtc": "2026-10-31T23:56:17.700Z",
+      "caseId": "signed-body-substitution",
+      "stage": "refused",
+      "policyVersion": 1,
+      "requestRef": "d657f4fa6c744150",
+      "status": 400,
+      "errorType": "DataError"
+    },
+    {
+      "sequence": 61,
+      "atUtc": "2026-10-31T23:56:17.700Z",
+      "caseId": "signed-body-substitution",
+      "stage": "http-completed",
+      "policyVersion": 1,
+      "requestRef": "d657f4fa6c744150",
+      "endpoint": "copy",
+      "status": 400
+    },
+    {
+      "sequence": 62,
+      "atUtc": "2026-10-31T23:56:17.703Z",
+      "caseId": "revoked-ancestor-live-leaf",
+      "stage": "received",
+      "policyVersion": 1,
+      "requestRef": "47f2cb257e78de7c",
+      "endpoint": "resource"
+    },
+    {
+      "sequence": 63,
+      "atUtc": "2026-10-31T23:56:17.704Z",
+      "caseId": "revoked-ancestor-live-leaf",
+      "stage": "verified",
+      "policyVersion": 1,
+      "requestRef": "47f2cb257e78de7c",
+      "endpoint": "resource",
+      "action": "read",
+      "capabilityRef": "e23f5a4144ff5c62",
+      "chainDepth": 3,
+      "actorRef": "cc9a63ff5a1612f6"
+    },
+    {
+      "sequence": 64,
+      "atUtc": "2026-10-31T23:56:17.704Z",
+      "caseId": "revoked-ancestor-live-leaf",
+      "stage": "effect",
+      "policyVersion": 1,
+      "requestRef": "47f2cb257e78de7c",
+      "operation": "read",
+      "resourceRef": "3c68e432675dd8e2",
+      "valueDigest": "644cc8464dbe4c3314f4a1542556c54076fc923b9efda3a4afb1a2ceeccda826"
+    },
+    {
+      "sequence": 65,
+      "atUtc": "2026-10-31T23:56:17.704Z",
+      "caseId": "revoked-ancestor-live-leaf",
+      "stage": "http-completed",
+      "policyVersion": 1,
+      "requestRef": "47f2cb257e78de7c",
+      "endpoint": "resource",
+      "status": 200
+    },
+    {
+      "sequence": 66,
+      "atUtc": "2026-10-31T23:56:17.705Z",
+      "caseId": "revoked-ancestor-live-leaf",
+      "stage": "revocation-committed",
+      "policyVersion": 2,
+      "capabilityRefs": [
+        "56ac198610e1ddf5"
+      ]
+    },
+    {
+      "sequence": 67,
+      "atUtc": "2026-10-31T23:56:17.705Z",
+      "caseId": "revoked-ancestor-live-leaf",
+      "stage": "received",
+      "policyVersion": 2,
+      "requestRef": "7a86a9e25729c657",
+      "endpoint": "resource"
+    },
+    {
+      "sequence": 68,
+      "atUtc": "2026-10-31T23:56:17.707Z",
+      "caseId": "revoked-ancestor-live-leaf",
+      "stage": "refused",
+      "policyVersion": 2,
+      "requestRef": "7a86a9e25729c657",
+      "status": 403,
+      "errorType": "Error"
+    },
+    {
+      "sequence": 69,
+      "atUtc": "2026-10-31T23:56:17.707Z",
+      "caseId": "revoked-ancestor-live-leaf",
+      "stage": "http-completed",
+      "policyVersion": 2,
+      "requestRef": "7a86a9e25729c657",
+      "endpoint": "resource",
+      "status": 403
+    },
+    {
+      "sequence": 70,
+      "atUtc": "2026-10-31T23:56:17.708Z",
+      "caseId": "inflight-and-post-commit",
+      "stage": "received",
+      "policyVersion": 2,
+      "requestRef": "ba2f468f94ee9393",
+      "endpoint": "resource"
+    },
+    {
+      "sequence": 71,
+      "atUtc": "2026-10-31T23:56:17.710Z",
+      "caseId": "inflight-and-post-commit",
+      "stage": "verified",
+      "policyVersion": 2,
+      "requestRef": "ba2f468f94ee9393",
+      "endpoint": "resource",
+      "action": "read",
+      "capabilityRef": "7c31819aa1b9d476",
+      "chainDepth": 3,
+      "actorRef": "cc9a63ff5a1612f6"
+    },
+    {
+      "sequence": 72,
+      "atUtc": "2026-10-31T23:56:17.710Z",
+      "caseId": "inflight-and-post-commit",
+      "stage": "effect",
+      "policyVersion": 2,
+      "requestRef": "ba2f468f94ee9393",
+      "operation": "read",
+      "resourceRef": "7b92e814869d8b3b",
+      "valueDigest": "644cc8464dbe4c3314f4a1542556c54076fc923b9efda3a4afb1a2ceeccda826"
+    },
+    {
+      "sequence": 73,
+      "atUtc": "2026-10-31T23:56:17.710Z",
+      "caseId": "inflight-and-post-commit",
+      "stage": "revocation-committed",
+      "policyVersion": 3,
+      "capabilityRefs": [
+        "4811043bd28bb379"
+      ]
+    },
+    {
+      "sequence": 74,
+      "atUtc": "2026-10-31T23:56:17.711Z",
+      "caseId": "inflight-and-post-commit",
+      "stage": "received",
+      "policyVersion": 3,
+      "requestRef": "de6d2d59768aecb5",
+      "endpoint": "resource"
+    },
+    {
+      "sequence": 75,
+      "atUtc": "2026-10-31T23:56:17.713Z",
+      "caseId": "inflight-and-post-commit",
+      "stage": "refused",
+      "policyVersion": 3,
+      "requestRef": "de6d2d59768aecb5",
+      "status": 403,
+      "errorType": "Error"
+    },
+    {
+      "sequence": 76,
+      "atUtc": "2026-10-31T23:56:17.713Z",
+      "caseId": "inflight-and-post-commit",
+      "stage": "http-completed",
+      "policyVersion": 3,
+      "requestRef": "de6d2d59768aecb5",
+      "endpoint": "resource",
+      "status": 403
+    },
+    {
+      "sequence": 77,
+      "atUtc": "2026-10-31T23:56:17.713Z",
+      "caseId": "inflight-and-post-commit",
+      "stage": "http-completed",
+      "policyVersion": 3,
+      "requestRef": "ba2f468f94ee9393",
+      "endpoint": "resource",
+      "status": 200
+    },
+    {
+      "sequence": 78,
+      "atUtc": "2026-10-31T23:56:17.714Z",
+      "caseId": "independent-authority-revocation-control",
+      "stage": "revocation-committed",
+      "policyVersion": 4,
+      "capabilityRefs": [
+        "e03df8c66241e02c"
+      ]
+    },
+    {
+      "sequence": 79,
+      "atUtc": "2026-10-31T23:56:17.715Z",
+      "caseId": "independent-authority-revocation-control",
+      "stage": "received",
+      "policyVersion": 4,
+      "requestRef": "773a79f4e6ddbc71",
+      "endpoint": "copy"
+    },
+    {
+      "sequence": 80,
+      "atUtc": "2026-10-31T23:56:17.716Z",
+      "caseId": "independent-authority-revocation-control",
+      "stage": "refused",
+      "policyVersion": 4,
+      "requestRef": "773a79f4e6ddbc71",
+      "status": 403,
+      "errorType": "Error"
+    },
+    {
+      "sequence": 81,
+      "atUtc": "2026-10-31T23:56:17.716Z",
+      "caseId": "independent-authority-revocation-control",
+      "stage": "http-completed",
+      "policyVersion": 4,
+      "requestRef": "773a79f4e6ddbc71",
+      "endpoint": "copy",
+      "status": 403
+    },
+    {
+      "sequence": 82,
+      "atUtc": "2026-10-31T23:56:17.716Z",
+      "caseId": "independent-authority-revocation-control",
+      "stage": "received",
+      "policyVersion": 4,
+      "requestRef": "2dd21a6fd44ecf90",
+      "endpoint": "resource"
+    },
+    {
+      "sequence": 83,
+      "atUtc": "2026-10-31T23:56:17.717Z",
+      "caseId": "independent-authority-revocation-control",
+      "stage": "verified",
+      "policyVersion": 4,
+      "requestRef": "2dd21a6fd44ecf90",
+      "endpoint": "resource",
+      "action": "read",
+      "capabilityRef": "4454c598e96e3a62",
+      "chainDepth": 3,
+      "actorRef": "cc9a63ff5a1612f6"
+    },
+    {
+      "sequence": 84,
+      "atUtc": "2026-10-31T23:56:17.717Z",
+      "caseId": "independent-authority-revocation-control",
+      "stage": "effect",
+      "policyVersion": 4,
+      "requestRef": "2dd21a6fd44ecf90",
+      "operation": "read",
+      "resourceRef": "c2188830ca624d63",
+      "valueDigest": "644cc8464dbe4c3314f4a1542556c54076fc923b9efda3a4afb1a2ceeccda826"
+    },
+    {
+      "sequence": 85,
+      "atUtc": "2026-10-31T23:56:17.717Z",
+      "caseId": "independent-authority-revocation-control",
+      "stage": "http-completed",
+      "policyVersion": 4,
+      "requestRef": "2dd21a6fd44ecf90",
+      "endpoint": "resource",
+      "status": 200
+    }
+  ],
+  "profile": {
+    "maxClockSkewSeconds": 1,
+    "maxChainLength": 16,
+    "revocation": "Explicit synchronous local control-plane commit; resource native chain-inspection hook checks revoked ancestor IDs. Not a default or universal revocation API."
+  },
+  "limits": "One local reference stack with synthetic records and separate actor keys; not a second implementation, independent review, full ZCAP specification conformance, model safety, or production adoption.",
+  "cleanup": {
+    "listenerClosed": true,
+    "tlsFilesRemoved": true
+  },
+  "sourceSha256": "c76d3866128023f9d98a14d8fe2588115f39a1035033cf4cca4587c1a169c967"
+}

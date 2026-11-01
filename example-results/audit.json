@@ -1,0 +1,20 @@
+{
+  "result": "pass",
+  "cases": 14,
+  "actualHttpsRequests": 24,
+  "endpointEffects": 9,
+  "explicitRefusalResponses": 12,
+  "claim": "Single local reference-stack execution with synthetic data; no independent acceptance or use.",
+  "rejectedEvidenceNegativeControls": [
+    "missing-endpoint-effects",
+    "missing-explicit-refusal",
+    "wrong-worker-chain-depth",
+    "changed-output-state-on-denial",
+    "expiry-confounds-revocation",
+    "post-commit-effect",
+    "missing-inflight-correlation",
+    "unrelated-authority-erased",
+    "leaked-capability-material",
+    "source-changed-after-run"
+  ]
+}

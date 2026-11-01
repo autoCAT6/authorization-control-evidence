@@ -1,0 +1,18 @@
+{
+  "schema": "authorization-contract-summary/v1",
+  "status": "pass",
+  "cases": 14,
+  "actualHttpsRequests": 24,
+  "endpointEffects": 9,
+  "explicitRefusalResponses": 12,
+  "observationsSha256": "1cf4cfe24bbbddfd20cb14c9c49e233c3cd1db4ba298c7e60d3050bb9de199ef",
+  "auditSha256": "d800749fe917789605c6c90b436540080459ab14e474e46db57c6926a2c30937",
+  "sourceSha256": "c76d3866128023f9d98a14d8fe2588115f39a1035033cf4cca4587c1a169c967",
+  "dependencyLockSha256": "b6ccec079f1e0b2070163d226ca93c45de6a969c356f6330e76d2bd69f1a101c",
+  "profile": {
+    "maxClockSkewSeconds": 1,
+    "maxChainLength": 16,
+    "revocation": "Explicit synchronous local control-plane commit; resource native chain-inspection hook checks revoked ancestor IDs. Not a default or universal revocation API."
+  },
+  "limits": "One local reference stack with synthetic records and separate actor keys; not a second implementation, independent review, full ZCAP specification conformance, model safety, or production adoption."
+}

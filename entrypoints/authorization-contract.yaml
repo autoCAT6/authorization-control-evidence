@@ -1,0 +1,17 @@
+artifacts:
+  observations:
+    contents: $evaluate_step.observations
+    task:
+      name: VerifiedJsonArtifactTask
+  audit:
+    contents: $evaluate_step.audit
+    task:
+      name: VerifiedJsonArtifactTask
+  summary:
+    contents: $evaluate_step.summary
+    task:
+      name: VerifiedJsonArtifactTask
+
+graph:
+  evaluate_step:
+    evaluate_authorization_contract: {}
